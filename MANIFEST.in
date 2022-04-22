@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include madrasatech *.css
+recursive-include madrasatech *.csv
+recursive-include madrasatech *.html
+recursive-include madrasatech *.ico
+recursive-include madrasatech *.js
+recursive-include madrasatech *.json
+recursive-include madrasatech *.md
+recursive-include madrasatech *.png
+recursive-include madrasatech *.py
+recursive-include madrasatech *.svg
+recursive-include madrasatech *.txt
+recursive-exclude madrasatech *.pyc

@@ -1,0 +1,36 @@
+[
+ {
+  "class_division": "A",
+  "disable": 0,
+  "docstatus": 0,
+  "doctype": "Room",
+  "grade": "\u0627\u0648\u0644 \u062b\u0627\u0646\u0648\u064a",
+  "modified": "2022-04-23 01:40:59.507569",
+  "name": "(\u0627\u0648\u0644 \u062b\u0627\u0646\u0648\u064a) - (A)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "purpose": null,
+  "room_name": "Room",
+  "room_number": null,
+  "seating_capacity": null,
+  "stage": "\u062b\u0627\u0646\u0648\u064a"
+ },
+ {
+  "class_division": null,
+  "disable": 0,
+  "docstatus": 0,
+  "doctype": "Room",
+  "grade": "\u0627\u0648\u0644 \u062b\u0627\u0646\u0648\u064a",
+  "modified": "2022-04-23 01:41:13.809598",
+  "name": "(\u0627\u0648\u0644 \u062b\u0627\u0646\u0648\u064a) - (class_division)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "purpose": null,
+  "room_name": "Room",
+  "room_number": null,
+  "seating_capacity": null,
+  "stage": null
+ }
+]
