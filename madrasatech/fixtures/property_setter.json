@@ -1,0 +1,36 @@
+[
+ {
+  "default_value": null,
+  "doc_type": "Student",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "pincode",
+  "modified": "2022-04-23 13:45:26.339298",
+  "name": "Student-pincode-hidden",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "hidden",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Student",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "modified": "2022-04-23 15:01:54.016442",
+  "name": "Student-main-track_changes",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "track_changes",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
+ }
+]

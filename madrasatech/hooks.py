@@ -186,6 +186,31 @@ user_data_fields = [
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
+
+# fixtures = [
+#    "DocType", "Custom Script", "Property Setter", "Print Format", "Custom Field"
+# ]
+
+# for reference 
 fixtures = [
-	"Program","Student Batch Name","Room"
+    {"dt": "DocType", "filters": [
+        [
+            "name", "in", [
+              	"Student",
+                "Room",
+                "Student Batch Name",
+                "Program"
+            ]
+        ]
+    ]},
+    {"dt": "Custom Field", "filters": [
+        [
+            "name", "like", "Student-%"
+        ]
+    ]},
+	 {"dt": "Property Setter", "filters": [
+        [
+            "name", "like", "Student-%"
+        ]
+    ]}
 ]
