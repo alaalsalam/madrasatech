@@ -4,3 +4,4 @@
 *.swp
 tags
 madrasatech/docs/current
+madrasatech/hooks.py 
