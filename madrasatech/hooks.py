@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "madrasatech"
-app_title = "Madrasatech"
+app_title = "MadrasaTech"
 app_publisher = "MadrasaTech TEAM"
 app_description = "An ERPNext app for managing schools"
 app_icon = "octicon octicon-file-directory"
@@ -186,6 +186,3 @@ user_data_fields = [
 # Recommended only for DocTypes which have limited documents with untranslated names
 # For example: Role, Gender, etc.
 # translated_search_doctypes = []
-fixtures = [
-	"Program","Student Batch Name","Room"
-]
