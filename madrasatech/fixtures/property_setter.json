@@ -1,6 +1,40 @@
 [
  {
   "default_value": null,
+  "doc_type": "Student Batch Name",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "batch_name",
+  "modified": "2022-04-23 00:40:26.512085",
+  "name": "Student Batch Name-batch_name-label",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "label",
+  "property_type": "Data",
+  "row_name": null,
+  "value": "Stage Name"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Student Batch Name",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "batch_name",
+  "modified": "2022-04-23 00:40:26.609979",
+  "name": "Student Batch Name-batch_name-unique",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "unique",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
+ },
+ {
+  "default_value": null,
   "doc_type": "Program",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -32,6 +66,23 @@
   "property_type": "Check",
   "row_name": null,
   "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Room",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "room_name",
+  "modified": "2022-04-23 01:37:25.434635",
+  "name": "Room-room_name-default",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "default",
+  "property_type": "Text",
+  "row_name": null,
+  "value": "Room"
  },
  {
   "default_value": null,
@@ -341,6 +392,23 @@
  },
  {
   "default_value": null,
+  "doc_type": "Room",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "modified": "2022-04-24 14:56:09.502132",
+  "name": "Room-main-autoname",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "autoname",
+  "property_type": "Data",
+  "row_name": null,
+  "value": "format: {grade} - {class_division}"
+ },
+ {
+  "default_value": null,
   "doc_type": "Program",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -457,5 +525,22 @@
   "property_type": "Data",
   "row_name": null,
   "value": "Grade"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Room",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocField",
+  "field_name": "room_name",
+  "modified": "2022-04-25 13:13:24.320528",
+  "name": "Room-room_name-hidden",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "hidden",
+  "property_type": "Check",
+  "row_name": null,
+  "value": "1"
  }
 ]
