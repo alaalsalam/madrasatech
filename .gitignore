@@ -4,8 +4,3 @@
 *.swp
 tags
 madrasatech/docs/current
-<<<<<<< HEAD
-madrasatech/hooks.py 
-=======
-madrasatech/hooks.py
->>>>>>> b89a70f5660fa31b9b02b05edd3450a51996b897

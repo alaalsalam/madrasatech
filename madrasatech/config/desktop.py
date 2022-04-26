@@ -3,10 +3,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "MadrasaTech",
+			"module_name": "madrasatech",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("MadrasaTech")
+			"label": _("madrasatech")
 		}
 	]

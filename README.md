@@ -1,4 +1,4 @@
-## MadrasaTech
+## madrasatech
 
 An ERPNext app for managing schools
 
