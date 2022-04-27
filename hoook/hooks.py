@@ -179,8 +179,6 @@ user_data_fields = [
 # 	"madrasatech.auth.validate"
 # ]
 
-
-<<<<<<< Updated upstream
 # Translation
 # --------------------------------
 
@@ -195,43 +193,43 @@ user_data_fields = [
 
 # for reference 
 fixtures = [
-		# "Academic Year",
-        # "Academic Term",
-        # "Accounts Settings",
-        # "Education Settings",
-		# "Student",
-        # "Room",
-        # "Student Batch Name",
-        # "Program",
-     	# "Student Applicant",
-        # "Student Admission",
-        # "Fee Structure",
-        # "Fee Category",
-        # "Program Enrollment",
-        # "Student Admission",
-          "Client Script",
-        # "Payment Request",
-        # "Course Enrollment",
+	"Academic Year",
+        "Academic Term",
+        "Accounts Settings",
+        "Education Settings",
+	"Student",
+        "Room",
+        "Student Batch Name",
+        "Program",
+     	"Student Applicant",
+        "Student Admission",
+        "Fee Structure",
+        "Fee Category",
+        "Program Enrollment",
+        "Student Admission",
+        "Client Script",
+        "Payment Request",
+        "Course Enrollment",
     {"dt": "DocType", "filters": [
         [
             "name", "in", [
-           	# "Academic Year",
-     		# "Academic Term",
-     		# "Accounts Settings",
-     		# "Education Settings",
-            #   	"Student",
-            #     "Room",
-            #     "Student Batch Name",
-            #     "Program",
-            #     "Student Applicant",
-            #     "Student Admission",
-            #     "Fee Structure",
-            #     "Fee Category",
-            #     "Program Enrollment",       
-     		# "Student Admission",
-     		# "Client Script",
-     		# "Payment Request",
-     		# "Course Enrollment"
+           	"Academic Year",
+     		"Academic Term",
+     		"Accounts Settings",
+     		"Education Settings",
+              	"Student",
+                "Room",
+                "Student Batch Name",
+                "Program",
+                "Student Applicant",
+                "Student Admission",
+                "Fee Structure",
+                "Fee Category",
+                "Program Enrollment",       
+     		"Student Admission",
+     		"Client Script",
+     		"Payment Request",
+     		"Course Enrollment"
             ]
         ]
     ]},
@@ -246,19 +244,6 @@ fixtures = [
 				"Room",
 				"Student Applicant",
 				"Fee Structure"
-=======
-# for reference 
-fixtures = [                   
-     {"dt": "Custom Field", "filters": [
-        [
-            "dt", "in", [
-				"Student",
-				"Program",
-				"Room",
-				"Student Applicant",
-				"Fee Structure",
-				"Student Group"
->>>>>>> Stashed changes
 				
 			]
         ]
@@ -266,30 +251,18 @@ fixtures = [
 	 {"dt": "Property Setter", "filters": [
         [
             "doc_type", "in", [
-<<<<<<< Updated upstream
            			"Academic Year",
 		     		"Academic Term",
-=======
->>>>>>> Stashed changes
 				"Student",
 				"Program",
 				"Student Applicant",
 				"Program Enrollment",
-<<<<<<< Updated upstream
 				"Room",
 				"Student Batch Name"
 				
-=======
-				"Student Group",
-				"Student Batch Name"
->>>>>>> Stashed changes
 
 			]
         ]
     ]}
 ]
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
