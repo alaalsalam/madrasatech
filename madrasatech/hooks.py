@@ -178,9 +178,6 @@ user_data_fields = [
 # auth_hooks = [
 # 	"madrasatech.auth.validate"
 # ]
-
-
-<<<<<<< Updated upstream
 # Translation
 # --------------------------------
 
@@ -192,7 +189,6 @@ user_data_fields = [
 # fixtures = [
 #    "DocType", "Custom Script", "Property Setter", "Print Format", "Custom Field"
 # ]
-
 # for reference 
 fixtures = [
 		# "Academic Year",
@@ -245,20 +241,8 @@ fixtures = [
 				"Program",
 				"Room",
 				"Student Applicant",
-				"Fee Structure"
-=======
-# for reference 
-fixtures = [                   
-     {"dt": "Custom Field", "filters": [
-        [
-            "dt", "in", [
-				"Student",
-				"Program",
-				"Room",
-				"Student Applicant",
 				"Fee Structure",
 				"Student Group"
->>>>>>> Stashed changes
 				
 			]
         ]
@@ -266,30 +250,18 @@ fixtures = [
 	 {"dt": "Property Setter", "filters": [
         [
             "doc_type", "in", [
-<<<<<<< Updated upstream
            			"Academic Year",
 		     		"Academic Term",
-=======
->>>>>>> Stashed changes
 				"Student",
 				"Program",
 				"Student Applicant",
 				"Program Enrollment",
-<<<<<<< Updated upstream
 				"Room",
-				"Student Batch Name"
+				"Student Batch Name",
+				"Student Group"
 				
-=======
-				"Student Group",
-				"Student Batch Name"
->>>>>>> Stashed changes
 
 			]
         ]
     ]}
 ]
-
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
