@@ -152,24 +152,24 @@ app_license = "MIT"
 # --------------------
 
 user_data_fields = [
-	{
-		"doctype": "{doctype_1}",
-		"filter_by": "{filter_by}",
-		"redact_fields": ["{field_1}", "{field_2}"],
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_2}",
-		"filter_by": "{filter_by}",
-		"partial": 1,
-	},
-	{
-		"doctype": "{doctype_3}",
-		"strict": False,
-	},
-	{
-		"doctype": "{doctype_4}"
-	}
+    {
+        "doctype": "{doctype_1}",
+        "filter_by": "{filter_by}",
+        "redact_fields": ["{field_1}", "{field_2}"],
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_2}",
+        "filter_by": "{filter_by}",
+        "partial": 1,
+    },
+    {
+        "doctype": "{doctype_3}",
+        "strict": False,
+    },
+    {
+        "doctype": "{doctype_4}"
+    }
 ]
 
 # Authentication and authorization
@@ -191,47 +191,16 @@ user_data_fields = [
 # ]
 # for reference 
 fixtures = [
-		# "Academic Year",
-        # "Academic Term",
-        # "Accounts Settings",
-        # "Education Settings",
-		# "Student",
-        # "Room",
-        # "Student Batch Name",
-        # "Program",
-     	# "Student Applicant",
-        # "Student Admission",
-        # "Fee Structure",
-        # "Fee Category",
-        # "Program Enrollment",
-        # "Student Admission",
-          "Client Script",
-        # "Payment Request",
-        # "Course Enrollment",
-    {"dt": "DocType", "filters": [
+    {"dt": "Custom Field", "filters": [
         [
-            "name", "in", [
-           	# "Academic Year",
-     		# "Academic Term",
-     		# "Accounts Settings",
-     		# "Education Settings",
-            #   	"Student",
-            #     "Room",
-            #     "Student Batch Name",
-            #     "Program",
-            #     "Student Applicant",
-            #     "Student Admission",
-            #     "Fee Structure",
-            #     "Fee Category",
-            #     "Program Enrollment",       
-     		# "Student Admission",
-     		# "Client Script",
-     		# "Payment Request",
-     		# "Course Enrollment"
+            "dt", "in", [
+                "Student",
+                "Program",
+                "Room"
             ]
         ]
     ]},
-    {"dt": "Custom Field", "filters": [
+    {"dt": "Property Setter", "filters": [
         [
             "dt", "in", [
 
@@ -248,7 +217,7 @@ fixtures = [
 			]
         ]
     ]},
-	 {"dt": "Property Setter", "filters": [
+     {"dt": "Client Script", "filters": [
         [
             "doc_type", "in", [
            			"Academic Year",
