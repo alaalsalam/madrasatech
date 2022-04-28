@@ -242,7 +242,8 @@ fixtures = [
 				"Room",
 				"Student Applicant",
 				"Fee Structure",
-				"Student Group"
+				"Student Group",
+				"Instructor"
 				
 			]
         ]
@@ -258,7 +259,9 @@ fixtures = [
 				"Program Enrollment",
 				"Room",
 				"Student Batch Name",
-				"Student Group"
+				"Student Group",
+				"Instructor"
+				
 				
 
 			]
