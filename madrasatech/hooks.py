@@ -197,31 +197,49 @@ fixtures = [
                 "Student",
                 "Program",
                 "Room"
+                "Academic Year",
+                "Academic Term",
+                "Accounts Settings",
+                "Education Settings",
+                "Student",
+                "Room",
+                "Student Batch Name",
+                "Program",
+                "Student Applicant",
+                "Student Admission",
+                "Fee Structure",
+                "Fee Category",
+                "Program Enrollment",
+                "Student Admission",
+                "Client Script",
+                "Payment Request",
+                "Course Enrollment"
             ]
         ]
     ]},
+
     {"dt": "Property Setter", "filters": [
         [
             "dt", "in", [
 
 		           	"Academic Year",
+                    "Student",
 		     		"Academic Term",
 		     		"Student",
-				"Program",
-				"Room",
-				"Student Applicant",
-				"Fee Structure",
-				"Student Group",
-				"Instructor"
-				
+                    "Program",
+                    "Room",
+                    "Student Applicant",
+                    "Fee Structure",
+                    "Student Group",
+                    "Instructor"
 			]
         ]
     ]},
      {"dt": "Client Script", "filters": [
         [
             "doc_type", "in", [
-           			"Academic Year",
-		     		"Academic Term",
+                "Academic Year",
+                "Academic Term",
 				"Student",
 				"Program",
 				"Student Applicant",
@@ -230,9 +248,6 @@ fixtures = [
 				"Student Batch Name",
 				"Student Group",
 				"Instructor"
-				
-				
-
 			]
         ]
     ]}
