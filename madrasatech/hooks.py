@@ -1,8 +1,8 @@
 from . import __version__ as app_version
 
 app_name = "madrasatech"
-app_title = "MadrasaTech"
-app_publisher = "MadrasaTech TEAM"
+app_title = "madrasatech"
+app_publisher = "madrasatech@school.edu"
 app_description = "An ERPNext app for managing schools"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
@@ -178,93 +178,4 @@ user_data_fields = [
 # auth_hooks = [
 # 	"madrasatech.auth.validate"
 # ]
-# Translation
-# --------------------------------
 
-# Make link fields search translated document names for these DocTypes
-# Recommended only for DocTypes which have limited documents with untranslated names
-# For example: Role, Gender, etc.
-# translated_search_doctypes = []
-
-# fixtures = [
-#    "DocType", "Custom Script", "Property Setter", "Print Format", "Custom Field"
-# ]
-# for reference 
-fixtures = [
-		# "Academic Year",
-        # "Academic Term",
-        # "Accounts Settings",
-        # "Education Settings",
-		# "Student",
-        # "Room",
-        # "Student Batch Name",
-        # "Program",
-     	# "Student Applicant",
-        # "Student Admission",
-        # "Fee Structure",
-        # "Fee Category",
-        # "Program Enrollment",
-        # "Student Admission",
-          "Client Script",
-        # "Payment Request",
-        # "Course Enrollment",
-    {"dt": "DocType", "filters": [
-        [
-            "name", "in", [
-           	# "Academic Year",
-     		# "Academic Term",
-     		# "Accounts Settings",
-     		# "Education Settings",
-            #   	"Student",
-            #     "Room",
-            #     "Student Batch Name",
-            #     "Program",
-            #     "Student Applicant",
-            #     "Student Admission",
-            #     "Fee Structure",
-            #     "Fee Category",
-            #     "Program Enrollment",       
-     		# "Student Admission",
-     		# "Client Script",
-     		# "Payment Request",
-     		# "Course Enrollment"
-            ]
-        ]
-    ]},
-    {"dt": "Custom Field", "filters": [
-        [
-            "dt", "in", [
-
-		           	"Academic Year",
-		     		"Academic Term",
-		     		"Student",
-				"Program",
-				"Room",
-				"Student Applicant",
-				"Fee Structure",
-				"Student Group",
-				"Instructor"
-				
-			]
-        ]
-    ]},
-	 {"dt": "Property Setter", "filters": [
-        [
-            "doc_type", "in", [
-           			"Academic Year",
-		     		"Academic Term",
-				"Student",
-				"Program",
-				"Student Applicant",
-				"Program Enrollment",
-				"Room",
-				"Student Batch Name",
-				"Student Group",
-				"Instructor"
-				
-				
-
-			]
-        ]
-    ]}
-]
