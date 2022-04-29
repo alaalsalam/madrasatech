@@ -1,0 +1,50 @@
+{
+ "add_total_row": 1,
+ "columns": [
+  {
+   "fieldname": "Title",
+   "fieldtype": "Data",
+   "label": "Student name",
+   "width": 0
+  },
+  {
+   "fieldname": "Student Mobile Number",
+   "fieldtype": "Int",
+   "label": "Phone Number",
+   "width": 0
+  }
+ ],
+ "creation": "2022-04-27 23:45:04.397049",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "test",
+ "modified": "2022-04-27 23:45:04.397049",
+ "modified_by": "Administrator",
+ "module": "Madrasatech",
+ "name": "student with number",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Student",
+ "report_name": "student with number",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "Instructor"
+  },
+  {
+   "role": "Academics User"
+  },
+  {
+   "role": "Student"
+  },
+  {
+   "role": "LMS User"
+  }
+ ]
+}
