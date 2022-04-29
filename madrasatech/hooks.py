@@ -1,7 +1,7 @@
 from . import __version__ as app_version
 
 app_name = "madrasatech"
-app_title = "MadrasaTech"
+app_title = "madrasatech"
 app_publisher = "MadrasaTech TEAM"
 app_description = "An ERPNext app for managing schools"
 app_icon = "octicon octicon-file-directory"
@@ -178,17 +178,7 @@ user_data_fields = [
 # auth_hooks = [
 # 	"madrasatech.auth.validate"
 # ]
-# Translation
-# --------------------------------
 
-# Make link fields search translated document names for these DocTypes
-# Recommended only for DocTypes which have limited documents with untranslated names
-# For example: Role, Gender, etc.
-# translated_search_doctypes = []
-
-# fixtures = [
-#    "DocType", "Custom Script", "Property Setter", "Print Format", "Custom Field"
-# ]
 # for reference 
 fixtures = [
     {"dt": "Custom Field", "filters": [

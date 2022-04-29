@@ -10,7 +10,7 @@ setup(
 	name="madrasatech",
 	version=version,
 	description="An ERPNext app for managing schools",
-	author="MadrasaTech TEAM",
+	author="madrasatech@school.edu",
 	author_email="madrasatech@school.edu",
 	packages=find_packages(),
 	zip_safe=False,
