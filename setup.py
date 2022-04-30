@@ -9,9 +9,9 @@ from madrasatech import __version__ as version
 setup(
 	name="madrasatech",
 	version=version,
-	description="An ERPNext app for managing schools",
-	author="madrasatech@school.edu",
-	author_email="madrasatech@school.edu",
+	description="an erp system",
+	author="samia",
+	author_email="a@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,

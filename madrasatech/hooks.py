@@ -2,11 +2,11 @@ from . import __version__ as app_version
 
 app_name = "madrasatech"
 app_title = "madrasatech"
-app_publisher = "MadrasaTech TEAM"
-app_description = "An ERPNext app for managing schools"
+app_publisher = "samia"
+app_description = "an erp system"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "madrasatech@school.edu"
+app_email = "a@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
@@ -179,82 +179,3 @@ user_data_fields = [
 # 	"madrasatech.auth.validate"
 # ]
 
-# for reference 
-fixtures = [
-		# "Academic Year",
-        # "Academic Term",
-        # "Accounts Settings",
-        # "Education Settings",
-		# "Student",
-        # "Room",
-        # "Student Batch Name",
-        # "Program",
-     	# "Student Applicant",
-        # "Student Admission",
-        # "Fee Structure",
-        # "Fee Category",
-        # "Program Enrollment",
-        # "Student Admission",
-          "Client Script",
-        # "Payment Request",
-        # "Course Enrollment",
-    {"dt": "DocType", "filters": [
-        [
-            "name", "in", [
-           	# "Academic Year",
-     		# "Academic Term",
-     		# "Accounts Settings",
-     		# "Education Settings",
-            #   	"Student",
-            #     "Room",
-            #     "Student Batch Name",
-            #     "Program",
-            #     "Student Applicant",
-            #     "Student Admission",
-            #     "Fee Structure",
-            #     "Fee Category",
-            #     "Program Enrollment",       
-     		# "Student Admission",
-     		# "Client Script",
-     		# "Payment Request",
-     		# "Course Enrollment"
-            ]
-        ]
-    ]},
-    {"dt": "Custom Field", "filters": [
-        [
-            "dt", "in", [
-
-		           	"Academic Year",
-		     		"Academic Term",
-		     		"Student",
-				"Program",
-				"Room",
-				"Student Applicant",
-				"Fee Structure",
-				"Student Group",
-				"Instructor"
-				
-			]
-        ]
-    ]},
-	 {"dt": "Property Setter", "filters": [
-        [
-            "doc_type", "in", [
-           			"Academic Year",
-		     		"Academic Term",
-				"Student",
-				"Program",
-				"Student Applicant",
-				"Program Enrollment",
-				"Room",
-				"Student Batch Name",
-				"Student Group",
-				"Instructor"
-				
-				
-
-			]
-        ]
-    ]}
-]

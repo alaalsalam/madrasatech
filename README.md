@@ -1,6 +1,6 @@
 ## madrasatech
 
-An ERPNext app for managing schools
+an erp system
 
 #### License
 
