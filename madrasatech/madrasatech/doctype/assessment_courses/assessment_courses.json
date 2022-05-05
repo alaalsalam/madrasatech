@@ -1,0 +1,167 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "EDU-ASC-.YYYY.-.#####",
+ "creation": "2022-05-04 03:57:07.826713",
+ "doctype": "DocType",
+ "document_type": "Setup",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_group",
+  "assessment_name",
+  "assessment_group",
+  "grading_scale",
+  "program",
+  "course",
+  "courses",
+  "academic_year",
+  "academic_term",
+  "column_break_4",
+  "section_break_20",
+  "maximum_assessment_score",
+  "assessment_criteria",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_group",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Student Group",
+   "options": "Student Group"
+  },
+  {
+   "fieldname": "assessment_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "Assessment Name"
+  },
+  {
+   "fieldname": "assessment_group",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Assessment Group",
+   "options": "Assessment Group",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "course.default_grading_scale",
+   "fetch_if_empty": 1,
+   "fieldname": "grading_scale",
+   "fieldtype": "Link",
+   "in_standard_filter": 1,
+   "label": "Grading Scale",
+   "options": "Grading Scale",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "student_group.program",
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "label": "Program",
+   "options": "Program"
+  },
+  {
+   "fetch_from": "student_group.course",
+   "fetch_if_empty": 1,
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_standard_filter": 1,
+   "label": "Course",
+   "options": "Course",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "student_group.academic_year",
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "label": "Academic Year",
+   "options": "Academic Year"
+  },
+  {
+   "fetch_from": "student_group.academic_term",
+   "fieldname": "academic_term",
+   "fieldtype": "Link",
+   "label": "Academic Term",
+   "options": "Academic Term"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_20",
+   "fieldtype": "Section Break",
+   "label": "Evaluate"
+  },
+  {
+   "fieldname": "maximum_assessment_score",
+   "fieldtype": "Float",
+   "label": "Maximum Assessment Score",
+   "reqd": 1
+  },
+  {
+   "fieldname": "assessment_criteria",
+   "fieldtype": "Table",
+   "label": "Assessment Course",
+   "options": "Assessment Student Course",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Assessment Plan",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Assessment Plan",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "courses",
+   "fieldtype": "Table",
+   "label": "Courses",
+   "options": "Program Enrollment Course"
+  }
+ ],
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-05-04 18:24:01.095419",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "Assessment Courses",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Academics User",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Education",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "assessment_name"
+}

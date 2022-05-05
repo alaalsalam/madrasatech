@@ -1,17 +1,5 @@
 [
- {
-  "docstatus": 0,
-  "doctype": "Client Script",
-  "dt": "Student Group",
-  "enabled": 1,
-  "modified": "2022-04-27 03:11:27.795432",
-  "name": "Student Group-Form",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
-  "script": "frappe.ui.form.on('Student Group', {\n\tsetup:function(frm) {\n\t\t// your code here\n\t\tfrm.set_df_property(\"student_group_name\",\"rqed\",0);\n\t\n\n\t}\n})",
-  "view": "Form"
- },
+
  {
   "docstatus": 0,
   "doctype": "Client Script",
