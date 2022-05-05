@@ -41,12 +41,12 @@
 		<a href="#forgot">{{ _("Forgot Password?") }}</a></p>
 </div>
 
-<div class="page-card-actions">
-	<button class="btn btn-sm btn-primary btn-block btn-login" type="submit">
+<div class="apply-cont apply-color-1" >
+	<button   class="main-btn btn-block btn-login btn-ldap-login" type="submit">
 		{{ _("Login") }}</button>
 
 	{% if ldap_settings and ldap_settings.enabled %}
-	<button class="btn btn-sm btn-default btn-block btn-login btn-ldap-login">
+	<button class="btn btn-sm main-btn btn-block btn-login btn-ldap-login">
 		{{ _("Login with LDAP") }}</button>
 	{% endif %}
 </div>
@@ -58,8 +58,10 @@
 
 {% macro logo_section() %}
 <div class="page-card-head">
-	<img class="app-logo" src="{{ logo }}">
-	<h4>{{ _('Login to {0}').format(app_name or _("Frappe")) }}</h4>
+	<!-- <img class="app-logo" src="{{ logo }}"> -->
+	<!-- <h4>{{ _('Login to {0}').format(app_name or _("Frappe")) }}</h4> -->
+	<h4 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">MadrasaTech</h4>
+
 </div>
 {% endmacro %}
 
