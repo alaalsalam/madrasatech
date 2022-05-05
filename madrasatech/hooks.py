@@ -232,8 +232,9 @@ fixtures = [
 				"Room",
 				"Student Applicant",
 				"Fee Structure",
-				"Student Group",
-				"Instructor"
+				"Instructor",
+            	"Student Group"
+
 				
 			]
         ]
