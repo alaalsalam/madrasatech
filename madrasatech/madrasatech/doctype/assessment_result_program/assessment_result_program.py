@@ -9,7 +9,7 @@ from frappe.utils import flt
 from frappe.utils.csvutils import getlink
 
 import erpnext.education
-from erpnext.education.api import get_assessment_details, get_grade
+from erpnext.education.api import get_assessment_details_program, get_grade
 
 class AssessmentResultProgram(Document):
 	def validate(self):
@@ -19,7 +19,7 @@ class AssessmentResultProgram(Document):
 		self.validate_duplicate()
 
 	def validate_maximum_score(self):
-		assessment_details = get_assessment_details(self.assessment_plan)
+		assessment_details = get_assessment_details_program(self.assessment_plan)
 		max_scores = {}
 		for d in assessment_details:
 			max_scores.update({d.assessment_criteria: d.maximum_score})

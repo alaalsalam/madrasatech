@@ -29,6 +29,8 @@ frappe.ui.form.on('Assessment Plan Program', {
 			}, __('Tools'));
 		}
 
+		
+
 		frm.set_query('course', function() {
 			return {
 				query: 'erpnext.education.doctype.program_enrollment.program_enrollment.get_program_courses',
@@ -46,6 +48,34 @@ frappe.ui.form.on('Assessment Plan Program', {
 			};
 		});
 	},
+
+	test_type:function(frm){
+		 frm.events.get_courses(frm);		
+	},
+	
+	
+	get_courses: function(frm) {
+		frm.set_value('assessment_coursrs',[]);
+		frappe.call({
+			method: 'get_courses',
+			doc:frm.doc,
+			callback: function(r) {
+				if (r.message) {
+					console.log(r.message);
+
+					let course = r.message;
+					course.forEach((c) => {
+						c.assessment_criteria = c.course;
+						c.maximum_score = frm.doc.maximum_score_program;
+						delete c.course;
+					});
+
+					frm.set_value('assessment_coursrs', course);
+				}
+			}
+		})
+	},
+
 	maximum_assessment_score: function(frm) {
 		frm.trigger('course');
 	},

@@ -1,12 +1,12 @@
 // Copyright (c) 2022, MadrasaTech TEAM and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Assessment Result Program Tool', {
+frappe.ui.form.on('Assessment All Result Tool', {
 	setup: function(frm) {
 		frm.add_fetch("assessment_plan", "student_group", "student_group");
 	},
 
-	refresh: function(frm){
+	refresh: function(frm) {
 		if (frappe.route_options) {
 			frm.set_value("student_group", frappe.route_options.student_group);
 			frm.set_value("assessment_plan", frappe.route_options.assessment_plan);
@@ -24,7 +24,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 			if (!frm.doc.student_group)
 				return
 			frappe.call({
-				method: "erpnext.education.api.get_assessment_students_program",
+				method: "erpnext.education.api.get_assessment_students",
 				args: {
 					"assessment_plan": frm.doc.assessment_plan,
 					"student_group": frm.doc.student_group
@@ -50,16 +50,16 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 		$(frm.fields_dict.result_html.wrapper).empty();
 		let assessment_plan = frm.doc.assessment_plan;
 		frappe.call({
-			method: "erpnext.education.api.get_assessment_details_program",
+			method: "erpnext.education.api.get_assessment_details",
 			args: {
 				assessment_plan: assessment_plan
 			},
 			callback: function(r) {
-				// console.log(r.message);
 				frm.events.get_marks(frm, r.message);
 			}
 		});
 	},
+
 	get_marks: function(frm, criteria_list) {
 		let max_total_score = 0;
 		criteria_list.forEach(function(c) {
@@ -71,7 +71,6 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 			criteria: criteria_list,
 			max_total_score: max_total_score
 		}));
-		// console.log(result_table);
 		result_table.appendTo(frm.fields_dict.result_html.wrapper);
 
 		result_table.on('change', 'input', function(e) {
@@ -91,7 +90,6 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 				.each(function(el, input) {
 					let $input = $(input);
 					let criteria = $input.data().criteria;
-					console.log(criteria);
 					let value = parseFloat($input.val());
 					if (!Number.isNaN(value)) {
 						student_scores["assessment_details"][criteria] = value;
@@ -109,7 +107,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 					student_scores["comment"] = $(input).val();
 				});
 				frappe.call({
-					method: "erpnext.education.api.mark_assessment_result_program",
+					method: "erpnext.education.api.mark_assessment_result",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"scores": student_scores
@@ -129,19 +127,18 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 						result_table.find(`span[data-student=${assessment_result.student}].total-score-grade`).html(assessment_result.grade);
 						let link_span = result_table.find(`span[data-student=${assessment_result.student}].total-result-link`);
 						$(link_span).css("display", "block");
-						console.log(assessment_result);
 						$(link_span).find("a").attr("href", "/app/assessment-result/"+assessment_result.name);
-						// $(link_span).find("a").attr("href", `/app/assessment-result-program/${assessment_result.name}`);
 					}
 				});
 			}
 		});
 	},
+
 	submit_result: function(frm) {
 		if (frm.doc.show_submit) {
 			frm.page.set_primary_action(__("Submit"), function() {
 				frappe.call({
-					method: "erpnext.education.api.submit_assessment_results_program",
+					method: "erpnext.education.api.submit_assessment_results",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"student_group": frm.doc.student_group
@@ -162,4 +159,3 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 		}
 	}
 });
-

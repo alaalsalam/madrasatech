@@ -17,6 +17,7 @@
   "course",
   "academic_year",
   "academic_term",
+  "maximum_score_program",
   "section_break_20",
   "maximum_assessment_score",
   "assessment_coursrs",
@@ -76,6 +77,7 @@
    "options": "Program"
   },
   {
+   "default": " ",
    "fetch_from": "student_group.course",
    "fetch_if_empty": 1,
    "fieldname": "course",
@@ -83,8 +85,7 @@
    "in_global_search": 1,
    "in_standard_filter": 1,
    "label": "Course",
-   "options": "Course",
-   "reqd": 1
+   "options": "Course"
   },
   {
    "fetch_from": "student_group.academic_year",
@@ -135,11 +136,17 @@
    "label": "Assessment Courses",
    "options": "Assessment Plan Criteria Program",
    "reqd": 1
+  },
+  {
+   "fetch_from": "test_type.maximum_score",
+   "fieldname": "maximum_score_program",
+   "fieldtype": "Float",
+   "label": "Maximum score"
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-04 19:53:45.265991",
+ "modified": "2022-05-07 04:59:40.175133",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Assessment Plan Program",

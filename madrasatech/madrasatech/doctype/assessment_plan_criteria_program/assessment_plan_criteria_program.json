@@ -25,14 +25,14 @@
    "fieldname": "assessment_criteria",
    "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Assessment Criteria Program",
-   "options": "Assessment Criteria Program",
+   "label": "Assessment Criteria course",
+   "options": "Course",
    "reqd": 1
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2022-05-04 20:45:15.733630",
+ "modified": "2022-05-07 01:51:15.470734",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Assessment Plan Criteria Program",
