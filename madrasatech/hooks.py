@@ -2,11 +2,11 @@ from . import __version__ as app_version
 
 app_name = "madrasatech"
 app_title = "madrasatech"
-app_publisher = "samia"
-app_description = "an erp system"
+app_publisher = "MadrasaTech TEAM"
+app_description = "An ERPNext app for managing schools"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "a@gmail.com"
+app_email = "madrasatech@school.edu"
 app_license = "MIT"
 
 # Includes in <head>
@@ -181,11 +181,11 @@ user_data_fields = [
 
 # for reference 
 fixtures = [
-		# "Academic Year",
+	# "Academic Year",
         # "Academic Term",
         # "Accounts Settings",
         # "Education Settings",
-		# "Student",
+	# "Student",
         # "Room",
         # "Student Batch Name",
         # "Program",
@@ -256,6 +256,6 @@ fixtures = [
 				
 
 			]
-        ]
-    ]}
-]
+			]]
+			}]
+

@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2022-05-07 06:26:26.454684",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assessment_plan",
+  "column_break_2",
+  "student_group",
+  "column_break_3",
+  "course",
+  "type_test",
+  "program",
+  "stage",
+  "section_break_5",
+  "result_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "assessment_plan",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Assessment Plan",
+   "options": "Assessment Plan Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "student_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student Group",
+   "options": "Student Group",
+   "reqd": 1
+  },
+  {
+   "depends_on": "assessment_plan",
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "result_html",
+   "fieldtype": "HTML",
+   "label": "Result HTML"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "course",
+   "fieldtype": "Link",
+   "label": "Course",
+   "options": "Course"
+  },
+  {
+   "fieldname": "type_test",
+   "fieldtype": "Link",
+   "label": "Type Test",
+   "options": "Type Test"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "Program",
+   "options": "Program"
+  },
+  {
+   "fieldname": "stage",
+   "fieldtype": "Link",
+   "label": "Stage",
+   "options": "Student Batch Name"
+  }
+ ],
+ "hide_toolbar": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-05-09 02:24:24.326422",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "Assessment All Result Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Academics User",
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Instructor",
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "restrict_to_domain": "Education",
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
