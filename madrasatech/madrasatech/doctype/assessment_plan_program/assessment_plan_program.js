@@ -49,7 +49,7 @@ frappe.ui.form.on('Assessment Plan Program', {
 		});
 	},
 
-	test_type:function(frm){
+	type_test:function(frm){
 		 frm.events.get_courses(frm);		
 	},
 	
@@ -82,7 +82,7 @@ frappe.ui.form.on('Assessment Plan Program', {
 	course: function(frm) {
 		if (frm.doc.course && frm.doc.maximum_assessment_score) {
 			frappe.call({
-				method: 'erpnext.education.api.get_assessment_criteria',
+				method: 'madrasatech.madrasatech.api.get_assessment_criteria',
 				args: {
 					course: frm.doc.course
 				},

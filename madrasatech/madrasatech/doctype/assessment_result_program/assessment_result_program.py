@@ -9,7 +9,7 @@ from frappe.utils import flt
 from frappe.utils.csvutils import getlink
 
 import erpnext.education
-from erpnext.education.api import get_assessment_details_program, get_grade
+from madrasatech.madrasatech.api import get_assessment_details_program, get_grade
 
 class AssessmentResultProgram(Document):
 	def validate(self):

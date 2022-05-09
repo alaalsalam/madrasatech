@@ -4,6 +4,10 @@
 frappe.ui.form.on('Assessment All Result Tool', {
 	setup: function(frm) {
 		frm.add_fetch("assessment_plan", "student_group", "student_group");
+		frm.add_fetch("assessment_plan", "course", "course");
+		frm.add_fetch("assessment_plan", "type_test", "type_test");
+		frm.add_fetch("assessment_plan", "program", "program");
+		frm.add_fetch("program", "stage", "stage");
 	},
 
 	refresh: function(frm) {
@@ -16,31 +20,95 @@ frappe.ui.form.on('Assessment All Result Tool', {
 		}
 		frm.disable_save();
 		frm.page.clear_indicator();
-	},
 
+		frm.set_query('assessment_plan', function() {
+			return {
+				'filters':{
+					'course': frm.doc.course,
+					'type_test':frm.doc.type_test,
+					'student_group':frm.doc.student_group,
+					'program': frm.doc.program
+				}
+			};
+		});
+		frm.set_query('student_group', function() {
+			return {
+				'filters':{
+					'program': frm.doc.program
+				}
+			};
+		});
+		frm.set_query('program', function() {
+			return {
+				'filters':{
+					'stage': frm.doc.stage
+				}
+			};
+		});
+
+	},
+	
+
+	course: function(frm) {
+		frm.set_value("assessment_plan", "");
+	},
+	type_test: function(frm) {
+		frm.set_value("assessment_plan", "");
+	},
+	
+	stage: function(frm){
+	
+		if(frm.doc.assessment_plan) {
+			if (!frm.doc.student_group)
+				return
+			frappe.call({
+				method: "madrasatech.madrasatech.api.get_student_assignment_plan",
+				args: {
+					"student_group":frm.doc.student_group
+				},
+				callback: function(r) {
+					console.log(r.message);
+									}
+			});
+		}
+	},
 	assessment_plan: function(frm) {
+		
+		// console.log();
 		frm.doc.show_submit = false;
 		if(frm.doc.assessment_plan) {
 			if (!frm.doc.student_group)
 				return
 			frappe.call({
-				method: "erpnext.education.api.get_assessment_students",
+				method: "madrasatech.madrasatech.api.get_assessment_students_program_all_coures",
 				args: {
 					"assessment_plan": frm.doc.assessment_plan,
-					"student_group": frm.doc.student_group
+					// "assessment_plan_coures": frappe.db.get_value(),
+					"assessment_plan_coures": frappe.db.get_value('Assessment Result', {
+											'academic_year': frm.doc.academic_year,
+											'academic_term':frm.doc.academic_term,
+											'student_group':frm.doc.student_group
+										},'assessment_plan'),
+
+					// subject, description = frappe.db.get_value('Task', {'status': 'Open'}, ['subject', 'description'])
+					// frappe.db.get_value(’ Contracte’,{‘give_any_filed_name_of_ontracte’ : ‘field_value’}, ‘adresa_email_presedinte’)
+					"student_group": frm.doc.student_group,
+					"type_test":frm.doc.type_test
+
 				},
 				callback: function(r) {
-					if (r.message) {
-						frm.doc.students = r.message;
-						frm.events.render_table(frm);
-						for (let value of r.message) {
-							if (!value.docstatus) {
-								frm.doc.show_submit = true;
-								break;
-							}
-						}
-						frm.events.submit_result(frm);
-					}
+					// console.log(r);
+					// if (r.message) {
+					// 	frm.doc.students = r.message;
+					// 	frm.events.render_table(frm);
+					// 	for (let value of r.message) {
+					// 		if (!value.docstatus) {
+					// 			frm.doc.show_submit = true;
+					// 			break;
+					// 		}
+					// 	}
+					// 	frm.events.submit_result(frm);
+					// }
 				}
 			});
 		}
@@ -50,7 +118,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 		$(frm.fields_dict.result_html.wrapper).empty();
 		let assessment_plan = frm.doc.assessment_plan;
 		frappe.call({
-			method: "erpnext.education.api.get_assessment_details",
+			method: "madrasatech.madrasatech.api.get_assessment_details_program",
 			args: {
 				assessment_plan: assessment_plan
 			},
@@ -107,7 +175,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 					student_scores["comment"] = $(input).val();
 				});
 				frappe.call({
-					method: "erpnext.education.api.mark_assessment_result",
+					method: "madrasatech.madrasatech.api.mark_assessment_result",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"scores": student_scores
@@ -138,7 +206,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 		if (frm.doc.show_submit) {
 			frm.page.set_primary_action(__("Submit"), function() {
 				frappe.call({
-					method: "erpnext.education.api.submit_assessment_results",
+					method: "madrasatech.madrasatech.api.submit_assessment_results",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"student_group": frm.doc.student_group

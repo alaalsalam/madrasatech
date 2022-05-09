@@ -52,7 +52,7 @@ frappe.ui.form.on('Assessment Courses', {
 	course: function(frm) {
 		if (frm.doc.course && frm.doc.maximum_assessment_score) {
 			frappe.call({
-				method: 'erpnext.education.api.get_assessment_criteria',
+				method: 'madrasatech.madrasatech.api.get_assessment_criteria',
 				args: {
 					course: frm.doc.course
 				},
@@ -71,7 +71,7 @@ frappe.ui.form.on('Assessment Courses', {
 			});
 			// frappe.call({
 			// 	// method: 'get_courses',
-			// 	method: 'erpnext.education.api.get_courses',
+			// 	method: 'madrasatech.madrasatech.api.get_courses',
 			// 	doc:frm.doc,
 			// 	callback: function(r) {
 			// 		if (r.message) {

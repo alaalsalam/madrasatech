@@ -24,7 +24,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 			if (!frm.doc.student_group)
 				return
 			frappe.call({
-				method: "erpnext.education.api.get_assessment_students_program",
+				method: "madrasatech.madrasatech.api.get_assessment_students_program",
 				args: {
 					"assessment_plan": frm.doc.assessment_plan,
 					"student_group": frm.doc.student_group
@@ -50,7 +50,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 		$(frm.fields_dict.result_html.wrapper).empty();
 		let assessment_plan = frm.doc.assessment_plan;
 		frappe.call({
-			method: "erpnext.education.api.get_assessment_details_program",
+			method: "madrasatech.madrasatech.api.get_assessment_details_program",
 			args: {
 				assessment_plan: assessment_plan
 			},
@@ -109,7 +109,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 					student_scores["comment"] = $(input).val();
 				});
 				frappe.call({
-					method: "erpnext.education.api.mark_assessment_result_program",
+					method: "madrasatech.madrasatech.api.mark_assessment_result_program",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"scores": student_scores
@@ -130,8 +130,8 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 						let link_span = result_table.find(`span[data-student=${assessment_result.student}].total-result-link`);
 						$(link_span).css("display", "block");
 						console.log(assessment_result);
-						$(link_span).find("a").attr("href", "/app/assessment-result/"+assessment_result.name);
-						// $(link_span).find("a").attr("href", `/app/assessment-result-program/${assessment_result.name}`);
+						// $(link_span).find("a").attr("href", "/app/assessment-result/"+assessment_result.name);
+						$(link_span).find("a").attr("href", `/app/assessment-result-program/${assessment_result.name}`);
 					}
 				});
 			}
@@ -141,7 +141,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 		if (frm.doc.show_submit) {
 			frm.page.set_primary_action(__("Submit"), function() {
 				frappe.call({
-					method: "erpnext.education.api.submit_assessment_results_program",
+					method: "madrasatech.madrasatech.api.submit_assessment_results_program",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"student_group": frm.doc.student_group

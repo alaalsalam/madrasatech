@@ -39,7 +39,7 @@ frappe.ui.form.on('Assessment Student', {
 	program: function(frm) {
 		if (frm.doc.program) {
 			frappe.call({
-				method: 'erpnext.education.api.get_assessment_courses_details',
+				method: 'madrasatech.madrasatech.api.get_assessment_courses_details',
 				// method: 'get_courses',
 				args: {
 					program: frm.doc.program,
@@ -110,7 +110,7 @@ frappe.ui.form.on('Assessment Student', {
 // 		}
 // 		else {
 // 			frappe.call({
-// 				method: 'erpnext.education.api.get_grade',
+// 				method: 'madrasatech.madrasatech.api.get_grade',
 // 				args: {
 // 					grading_scale: frm.doc.grading_scale,
 // 					percentage: ((d.score/d.maximum_score) * 100)

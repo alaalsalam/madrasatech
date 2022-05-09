@@ -11,7 +11,7 @@
   "assessment_name",
   "assessment_group",
   "grading_scale",
-  "test_type",
+  "type_test",
   "column_break_2",
   "program",
   "course",
@@ -57,12 +57,6 @@
    "label": "Grading Scale",
    "options": "Grading Scale",
    "reqd": 1
-  },
-  {
-   "fieldname": "test_type",
-   "fieldtype": "Link",
-   "label": "Test Type",
-   "options": "Type Test"
   },
   {
    "fieldname": "column_break_2",
@@ -138,15 +132,24 @@
    "reqd": 1
   },
   {
-   "fetch_from": "test_type.maximum_score",
+   "fetch_from": "type_test.maximum_score",
    "fieldname": "maximum_score_program",
    "fieldtype": "Float",
    "label": "Maximum score"
+  },
+  {
+   "fieldname": "type_test",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Test Type",
+   "options": "Type Test",
+   "reqd": 1
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-07 04:59:40.175133",
+ "modified": "2022-05-09 02:39:54.678180",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Assessment Plan Program",
