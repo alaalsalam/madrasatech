@@ -140,9 +140,18 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Number",
+   "link_to": "Student Number",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-05-07 06:34:20.422864",
+ "modified": "2022-05-09 09:51:24.175891",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Cantorl Assessment",
