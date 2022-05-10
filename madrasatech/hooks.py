@@ -179,82 +179,37 @@ user_data_fields = [
 # 	"madrasatech.auth.validate"
 # ]
 
-# for reference 
+# for reference
 fixtures = [
-	# "Academic Year",
-        # "Academic Term",
-        # "Accounts Settings",
-        # "Education Settings",
-	# "Student",
-        # "Room",
-        # "Student Batch Name",
-        # "Program",
-     	# "Student Applicant",
-        # "Student Admission",
-        # "Fee Structure",
-        # "Fee Category",
-        # "Program Enrollment",
-        # "Student Admission",
-          "Client Script",
-        # "Payment Request",
-        # "Course Enrollment",
-    {"dt": "DocType", "filters": [
-        [
-            "name", "in", [
-           	# "Academic Year",
-     		# "Academic Term",
-     		# "Accounts Settings",
-     		# "Education Settings",
-            #   	"Student",
-            #     "Room",
-            #     "Student Batch Name",
-            #     "Program",
-            #     "Student Applicant",
-            #     "Student Admission",
-            #     "Fee Structure",
-            #     "Fee Category",
-            #     "Program Enrollment",       
-     		# "Student Admission",
-     		# "Client Script",
-     		# "Payment Request",
-     		# "Course Enrollment"
-            ]
-        ]
-    ]},
+    "Client Script",
     {"dt": "Custom Field", "filters": [
         [
             "dt", "in", [
-
-		           	"Academic Year",
-		     		"Academic Term",
-		     		"Student",
-				"Program",
-				"Room",
-				"Student Applicant",
-				"Fee Structure",
-				"Instructor",
-            	
-
-				
-			]
+                "Academic Year",
+                "Academic Term",
+                "Student",
+                "Student Group",
+                "Program",
+                "Room",
+                "Student Applicant",
+                "Fee Structure",
+                "Instructor",
+            ]
         ]
     ]},
-	 {"dt": "Property Setter", "filters": [
+    {"dt": "Property Setter", "filters": [
         [
             "doc_type", "in", [
-           			"Academic Year",
-		     		"Academic Term",
-				"Student",
-				"Program",
-				"Student Applicant",
-				"Program Enrollment",
-				"Room",
-				"Student Batch Name",
-			
-				"Instructor"
-				
-				
-
-			]
-			]]
-			}]
+                "Academic Year",
+                "Academic Term",
+                "Student",
+                "Student Group",
+                "Program",
+                "Student Applicant",
+                "Program Enrollment",
+                "Room",
+                "Student Batch Name",
+                "Instructor"
+            ]
+        ]]
+     }]
