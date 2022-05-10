@@ -1573,6 +1573,7 @@ p {
 .testimonial-slied{
     position: relative;
     z-index: 5;
+    justify-content: center;
 }
 .singel-testimonial{
     position: relative;
