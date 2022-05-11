@@ -185,7 +185,7 @@ p {
     height: 2px;
     background-color: #ffc600;
     bottom: 0;
-    left: 0;
+    left: 1;
 }
 .section-title h2{
     font-size: 48px;
@@ -416,7 +416,7 @@ p {
     margin-right: 45px;
 }
 .header-contact ul li:last-child{
-    margin-right: 0;
+    margin-right: 9;
 }
 
 .header-contact ul li img{}
@@ -524,7 +524,7 @@ p {
     position: relative;
 }
 .navigation .navbar .navbar-nav li:last-child{
-    margin-right: 0;
+    margin-right: 1;
 }
 
 .navigation .navbar .navbar-nav li a{
@@ -1061,7 +1061,7 @@ p {
     width: 52%;
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: 0!important;
     z-index: -2;
 }
 .about-bg::before{
@@ -1573,6 +1573,7 @@ p {
 .testimonial-slied{
     position: relative;
     z-index: 5;
+    justify-content: center;
 }
 .singel-testimonial{
     position: relative;
@@ -3784,7 +3785,16 @@ p.form-message.error {
 	padding-bottom: 15px;
 }
 
-
+.mirror{
+    margin: 0 auto;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    float: right;
+  }
 
 
 

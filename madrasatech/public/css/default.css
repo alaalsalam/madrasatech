@@ -911,7 +911,7 @@
 	position: relative;
 }
 [data-overlay]::before {
-	background: #07294d none repeat scroll 0 0;
+
 	content: "";
 	height: 100%;
 	left: 0;
@@ -924,7 +924,8 @@
 	opacity: 0.3;
 }
 [data-overlay="4"]::before {
-	opacity: 0.4;
+	/* background-image: url(images/backimage.png); */
+	opacity: 9;
 }
 [data-overlay="5"]::before {
 	opacity: 0.5;
