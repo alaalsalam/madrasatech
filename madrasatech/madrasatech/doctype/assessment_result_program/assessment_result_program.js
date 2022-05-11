@@ -1,6 +1,26 @@
 // Copyright (c) 2022, MadrasaTech TEAM and contributors
 // For license information, please see license.txt
+function get_total_scoer(course_name , frm){
+	console.log(frm.doc);
+	frappe.call({
+		method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
+		args: {
+			"student":frm.doc.student,
+			"assessment_criteria_program":course_name,
+			'type_test':frm.doc.type_test,
+		},
+		callback: function(r) {
+			// console.log("result ->",r.message[0])
+			if (r.message) {
+				return r.message;
+				// frm.refresh_field('details');
+			}
+			else
+				return false;
+		}
+	});
 
+}
 frappe.ui.form.on('Assessment Result Program', {
 	refresh: function(frm) {
 		if (!frm.doc.__islocal) {
@@ -16,6 +36,12 @@ frappe.ui.form.on('Assessment Result Program', {
 					'program': frm.doc.program
 				}
 			};
+		// frm.set_query('student', function() {
+		// 	return {
+		// 		filters: {
+		// 			'program': frm.doc.student_group
+		// 		}
+		// 	};
 		});
 
 		frm.set_query('academic_term', function() {
@@ -25,6 +51,8 @@ frappe.ui.form.on('Assessment Result Program', {
 				}
 			};
 		});
+		
+		
 	},
 
 	onload: function(frm) {
@@ -37,10 +65,10 @@ frappe.ui.form.on('Assessment Result Program', {
 		});
 	},
 
-	assessment_plan: function(frm) {
+	student: function(frm) {
 		if (frm.doc.assessment_plan) {
 			frappe.call({
-				method: 'madrasatech.madrasatech.api.get_assessment_details_program',
+				method: 'madrasatech.madrasatech.api.get_assessment_details_program_all_course',
 				args: {
 					assessment_plan: frm.doc.assessment_plan
 				},
@@ -48,26 +76,65 @@ frappe.ui.form.on('Assessment Result Program', {
 					if (r.message) {
 						frappe.model.clear_table(frm.doc, 'details');
 						$.each(r.message, function(i, d) {
+
 							var row = frm.add_child('details');
 							row.assessment_criteria = d.assessment_criteria;
 							row.maximum_score = d.maximum_score;
+							
 						});
 						frm.refresh_field('details');
 					}
 				}
 			});
 		}
+
 	},
+	// student:function(frm){
+	// 	console.log(frm.doc.student);
+	// 	if(frm.doc.student){
+	// 		console.log("Ala 1");
+				// frappe.call({
+				// 	method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
+				// 	args: {
+				// 		"student":frm.doc.student,
+				// 		"assessment_plan": frm.doc.student,
+				// 		"assessment_criteria_program":"رياضيات",
+				// 		'type_test':frm.doc.type_test,
+				// 	},
+				// 	callback: function(r) {
+				// 		console.log(r.message)
+				// 		if (r.message) {
+				// 			$.each(frm.doc.details, function(_i, e) {
+				// 				labels.push(e.assessment_criteria);
+				// 				maximum_scores.push(e.maximum_score);
+				// 				scores.push(e.score);
+								
+				// 			});
+				// 			frm.refresh_field('details');
+				// 		}
+				// 	}
+				// });
+	// 	}
+	// },
+
+
 
 	setup_chart: function(frm) {
 		let labels = [];
 		let maximum_scores = [];
 		let scores = [];
+
+		
+
 		$.each(frm.doc.details, function(_i, e) {
 			labels.push(e.assessment_criteria);
 			maximum_scores.push(e.maximum_score);
-			scores.push(e.score);
+			scores.push(e.score)
+			 
+			
+			
 		});
+		console.log(scores);
 
 		if (labels.length && maximum_scores.length && scores.length) {
 			frm.dashboard.chart_area.empty().removeClass('hidden');
@@ -88,7 +155,7 @@ frappe.ui.form.on('Assessment Result Program', {
 						}
 					]
 				},
-				colors: ['#4CA746', '#98D85B'],
+				colors: ['red', 'red'],
 				type: 'bar'
 			});
 		}
@@ -123,3 +190,5 @@ frappe.ui.form.on('Assessment Result Detail Program', {
 		}
 	}
 });
+
+

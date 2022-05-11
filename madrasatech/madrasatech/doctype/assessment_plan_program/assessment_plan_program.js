@@ -56,21 +56,24 @@ frappe.ui.form.on('Assessment Plan Program', {
 	
 	get_courses: function(frm) {
 		frm.set_value('assessment_coursrs',[]);
+		
 		frappe.call({
 			method: 'get_courses',
 			doc:frm.doc,
 			callback: function(r) {
 				if (r.message) {
 					console.log(r.message);
-
+					let max_score = 0;
 					let course = r.message;
 					course.forEach((c) => {
 						c.assessment_criteria = c.course;
 						c.maximum_score = frm.doc.maximum_score_program;
+						max_score += frm.doc.maximum_score_program
 						delete c.course;
 					});
 
 					frm.set_value('assessment_coursrs', course);
+					frm.set_value('maximum_assessment_score', max_score);
 				}
 			}
 		})

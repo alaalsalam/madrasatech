@@ -1,6 +1,26 @@
 // Copyright (c) 2022, MadrasaTech TEAM and contributors
 // For license information, please see license.txt
+function get_total_scoer(student,course_name ,type_test){
+	console.log(frm.doc);
+	frappe.call({
+		method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
+		args: {
+			"student":student,
+			"assessment_criteria_program":course_name,
+			'type_test':type_test,
+		},
+		callback: function(r) {
+			// console.log("result ->",r.message[0])
+			if (r.message) {
+				return r.message;
+				// frm.refresh_field('details');
+			}
+			else
+				return false;
+		}
+	});
 
+}
 frappe.ui.form.on('Assessment All Result Tool', {
 	setup: function(frm) {
 		frm.add_fetch("assessment_plan", "student_group", "student_group");
@@ -49,29 +69,30 @@ frappe.ui.form.on('Assessment All Result Tool', {
 	},
 	
 
-	course: function(frm) {
-		frm.set_value("assessment_plan", "");
-	},
-	type_test: function(frm) {
-		frm.set_value("assessment_plan", "");
-	},
+	// course: function(frm) {
+	// 	frm.set_value("assessment_plan", "");
+	// },
+	// type_test: function(frm) {
+	// 	// frm.set_value("assessment_plan", "");
+	// },
 	
-	stage: function(frm){
+	// stage: function(frm){
 	
-		if(frm.doc.assessment_plan) {
-			if (!frm.doc.student_group)
-				return
-			frappe.call({
-				method: "madrasatech.madrasatech.api.get_student_assignment_plan",
-				args: {
-					"student_group":frm.doc.student_group
-				},
-				callback: function(r) {
-					console.log(r.message);
-									}
-			});
-		}
-	},
+	// 	if(frm.doc.assessment_plan) {
+	// 		if (!frm.doc.student_group)
+	// 			return
+	// 		frappe.call({
+	// 			method: "madrasatech.madrasatech.api.get_result_program_all_coures",
+	// 			args: {
+	// 				"student_group":frm.doc.student_group,
+	// 				'type_test':frm.doc.type_test,
+	// 			},
+	// 			callback: function(r) {
+	// 				console.log(r.message);
+	// 								}
+	// 		});
+	// 	}
+	// },
 	assessment_plan: function(frm) {
 		
 		// console.log();
@@ -80,35 +101,33 @@ frappe.ui.form.on('Assessment All Result Tool', {
 			if (!frm.doc.student_group)
 				return
 			frappe.call({
-				method: "madrasatech.madrasatech.api.get_assessment_students_program_all_coures",
+				method: "madrasatech.madrasatech.api.get_assessment_students_program",
 				args: {
 					"assessment_plan": frm.doc.assessment_plan,
+					'type_test':frm.doc.type_test,
+					'student_group':frm.doc.student_group
 					// "assessment_plan_coures": frappe.db.get_value(),
-					"assessment_plan_coures": frappe.db.get_value('Assessment Result', {
-											'academic_year': frm.doc.academic_year,
-											'academic_term':frm.doc.academic_term,
-											'student_group':frm.doc.student_group
-										},'assessment_plan'),
-
-					// subject, description = frappe.db.get_value('Task', {'status': 'Open'}, ['subject', 'description'])
-					// frappe.db.get_value(’ Contracte’,{‘give_any_filed_name_of_ontracte’ : ‘field_value’}, ‘adresa_email_presedinte’)
-					"student_group": frm.doc.student_group,
-					"type_test":frm.doc.type_test
+					// "assessment_plan_coures": frappe.db.get_value('Assessment Result', {
+					// 						'academic_year': frm.doc.academic_year,
+					// 						'academic_term':frm.doc.academic_term,
+					// 						'student_group':frm.doc.student_group
+					// 					},'assessment_plan'),
 
 				},
 				callback: function(r) {
 					// console.log(r);
-					// if (r.message) {
-					// 	frm.doc.students = r.message;
-					// 	frm.events.render_table(frm);
-					// 	for (let value of r.message) {
-					// 		if (!value.docstatus) {
-					// 			frm.doc.show_submit = true;
-					// 			break;
-					// 		}
-					// 	}
-					// 	frm.events.submit_result(frm);
-					// }
+					console.log(r.message);
+					if (r.message) {
+						frm.doc.students = r.message;
+						frm.events.render_table(frm);
+						for (let value of r.message) {
+							if (!value.docstatus) {
+								frm.doc.show_submit = true;
+								break;
+							}
+						}
+						frm.events.submit_result(frm);
+					}
 				}
 			});
 		}
@@ -133,6 +152,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 		criteria_list.forEach(function(c) {
 			max_total_score += c.maximum_score
 		});
+		
 		var result_table = $(frappe.render_template('assessment_result_tool', {
 			frm: frm,
 			students: frm.doc.students,
@@ -140,7 +160,6 @@ frappe.ui.form.on('Assessment All Result Tool', {
 			max_total_score: max_total_score
 		}));
 		result_table.appendTo(frm.fields_dict.result_html.wrapper);
-
 		result_table.on('change', 'input', function(e) {
 			let $input = $(e.target);
 			let student = $input.data().student;
@@ -157,11 +176,14 @@ frappe.ui.form.on('Assessment All Result Tool', {
 			result_table.find(`input[data-student=${student}].student-result-data`)
 				.each(function(el, input) {
 					let $input = $(input);
-					let criteria = $input.data().criteria;
+					let criteria = $input.data().criteria; // input
 					let value = parseFloat($input.val());
 					if (!Number.isNaN(value)) {
 						student_scores["assessment_details"][criteria] = value;
-					}
+					} 
+					else {
+						pass;
+					}// else
 					total_score += value;
 			});
 			if(!Number.isNaN(total_score)) {
@@ -174,12 +196,15 @@ frappe.ui.form.on('Assessment All Result Tool', {
 					.each(function(el, input){
 					student_scores["comment"] = $(input).val();
 				});
+				
 				frappe.call({
-					method: "madrasatech.madrasatech.api.mark_assessment_result",
+					method: "madrasatech.madrasatech.api.mark_assessment_result_program",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"scores": student_scores
+						
 					},
+			
 					callback: function(r) {
 						let assessment_result = r.message;
 						if (!frm.doc.show_submit) {
@@ -195,7 +220,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 						result_table.find(`span[data-student=${assessment_result.student}].total-score-grade`).html(assessment_result.grade);
 						let link_span = result_table.find(`span[data-student=${assessment_result.student}].total-result-link`);
 						$(link_span).css("display", "block");
-						$(link_span).find("a").attr("href", "/app/assessment-result/"+assessment_result.name);
+						$(link_span).find("a").attr("href", "/app/assessment-result-program/"+assessment_result.name);
 					}
 				});
 			}
@@ -206,7 +231,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 		if (frm.doc.show_submit) {
 			frm.page.set_primary_action(__("Submit"), function() {
 				frappe.call({
-					method: "madrasatech.madrasatech.api.submit_assessment_results",
+					method: "madrasatech.madrasatech.api.submit_assessment_results_program",
 					args: {
 						"assessment_plan": frm.doc.assessment_plan,
 						"student_group": frm.doc.student_group

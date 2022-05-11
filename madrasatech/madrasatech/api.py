@@ -585,61 +585,130 @@ def get_assessment_students_program(assessment_plan, student_group):
 
 
 @frappe.whitelist()
-def get_assessment_students_program_all_coures(assessment_plan,assessment_plan_coures, student_group,type_test):
+def get_assessment_students_program_all_coures(assessment_plan,assessment_criteria_program, student_group,type_test):
 	student_list = get_student_group_students(student_group)
-	for i, student in enumerate(student_list):
-		result = get_result_program_all_coures(student.student, assessment_plan)
-		# if result:
-		# 	student_result = {}
-		# 	for d in result.details:
-		# 		student_result.update({d.assessment_criteria: [cstr(d.score), d.grade]})
-		# 	student_result.update(
-		# 		{"total_score": [cstr(result.total_score), result.grade], "comment": result.comment}
-		# 	)
-		# 	student.update(
-		# 		{"assessment_details": student_result, "docstatus": result.docstatus, "name": result.name}
-		# 	)
-		# else:
-		# 	student.update({"assessment_details": None})
-	# return student_list
-	return result
+	for student in student_list:
+		# result = get_result_program(student.student, assessment_plan)
+		result = get_result_program_all_coures(student.student,assessment_criteria_program,type_test)
+		if result:
+			student_result = {}
+			for d in result:
+				student_result.update({d.assessment_criteria: [cstr(d.score), d.grade]})
+			student_result.update(
+				{"total_score": [cstr(result.total_score), result.grade], "comment": result.comment}
+			)
+			student.update(
+				{"assessment_details": student_result, "docstatus": result.docstatus, "name": result.name}
+			)
+		else:
+			frappe.msgprint(_("False get_assessment_students_program_all_coures "))
+			student.update({"assessment_details": None})
+	return student_list
+	# return result
 
 
 @frappe.whitelist()
-def get_result_program_all_coures(student, assessment_plan):
+def get_result_program_all_coures(student,assessment_criteria_program,type_test):
 	"""Returns Submitted Result of given student for specified Assessment Plan
 
 	:param Student: Student
 	:param Assessment Plan: Assessment Plan
 	"""
-	results = frappe.db.get_value(
-	# results = frappe.get_all(
-		"Assessment Result",
-		{"student": student, "assessment_plan": assessment_plan, "docstatus": ("!=", 2)},
-		'total_score'
-	),
-	if results:
-		# frappe.msgprint(_('	Ala  -_- '))
-		# print(results)
-		# frappe.msgprint(_(results))
-		return results
-		# return frappe.get_doc("Assessment Result Program", results[0])
-	else:
-		return None
-
-@frappe.whitelist()
-def get_student_assignment_plan(student_group):
-	"""Returns Submitted Result of given student for specified Assessment Plan
-
-	:param Student: Student
-	:param Assessment Plan: Assessment Plan
-	"""
+	assessment_result_doc_array =[]
 	results = frappe.get_all(
 		"Assessment Result",
-		filters={"student_group": student_group},
+		filters={"student": student,"course":assessment_criteria_program,"type_test":type_test},
 	)
 	if results:
-		# return frappe.get_doc("Assessment Result", results[0])
-		return results
+		for a in results:
+			doc = frappe.get_doc("Assessment Result", a)
+			assessment_result_doc_array.append(doc.total_score)
+			
+		return assessment_result_doc_array
 	else:
+		# frappe.msgprint(_('	Ala False get_result_program_all_coures -_- '))
 		return None
+
+
+@frappe.whitelist()
+def get_assessment_details_program_all_course(assessment_plan):
+	"""Returns Assessment Criteria Program  and Maximum Score from Assessment Plan Master.
+
+	:param Assessment Plan: Assessment Plan
+	"""
+	return frappe.get_all(
+		
+		# "Assessment Plan Criteria",
+		"Assessment Plan Criteria Program",
+		fields=["assessment_criteria", "maximum_score", "docstatus"],
+		filters={"parent": assessment_plan},
+		order_by="idx",
+	)	
+	# if results:
+	# 	# frappe.msgprint(_('	Ala  -_- '))
+	# 	# print(results)
+	# 	# frappe.msgprint(_(results))
+	# 	return frappe.get_doc("Assessment Result Program", results[0])
+	# else:
+	# 	return None
+
+
+
+# @frappe.whitelist()
+# def get_student_assignment_plan(student_group):
+# 	"""Returns Submitted Result of given student for specified Assessment Plan
+
+# 	:param Student: Student
+# 	:param Assessment Plan: Assessment Plan
+# 	"""
+# 	results = frappe.get_all(
+# 		"Assessment Result",
+# 		filters={"student_group": student_group},
+# 	)
+# 	assessment_result_doc_array =[]
+# 	if results:
+# 		for a in results:
+# 			doc = frappe.get_doc("Assessment Result", a)
+# 			assessment_result_doc_array.append(doc.total_score)
+# 		return assessment_result_doc_array
+# 	else:
+# 		return None
+
+
+	# frappe.msgprint(_(student.student))
+
+
+@frappe.whitelist()
+def mark_assessment_result_program_all_course(assessment_plan, scores):
+	student_score = json.loads(scores)
+	assessment_details = []
+	# for criteria in student_score.get("assessment_details"):
+	# 	assessment_details.append(
+	# 		{"assessment_criteria": criteria, "score": flt(student_score["assessment_details"][criteria])}
+	# 	)
+	assessment_result = get_assessment_result_doc_program(student_score["student"], assessment_plan)
+	assessment_result.update(
+		{
+			"student": student_score.get("student"),
+			"assessment_plan": assessment_plan,
+			"comment": student_score.get("comment"),
+			"total_score": student_score.get("total_score"),
+			"details": assessment_details,
+		}
+	)
+	assessment_result.save()
+	details = {}
+	for d in assessment_result.details:
+		details.update({d.assessment_criteria: d.grade})
+	assessment_result_dict = {
+		"name": assessment_result.name,
+		"student": assessment_result.student,
+		"total_score": assessment_result.total_score,
+		"grade": assessment_result.grade,
+		"details": details,
+	}
+	return assessment_result_dict
+
+# frappe.msgprint(_('	Ala 1 True -_- '))
+# frappe.msgprint(_('	Ala 2 True -_- '))
+# frappe.msgprint(_('	Ala 3 True -_- '))

@@ -10,6 +10,7 @@
   "assessment_plan",
   "program",
   "course",
+  "type_test",
   "academic_year",
   "academic_term",
   "column_break_3",
@@ -75,8 +76,7 @@
    "fieldtype": "Link",
    "in_global_search": 1,
    "label": "Student",
-   "options": "Student",
-   "reqd": 1
+   "options": "Student"
   },
   {
    "fetch_from": "student.title",
@@ -168,11 +168,21 @@
    "options": "Assessment Result",
    "print_hide": 1,
    "read_only": 1
+  },
+  {
+   "fetch_from": "assessment_plan.type_test",
+   "fieldname": "type_test",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type Test",
+   "options": "Type Test",
+   "read_only": 1
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-07 05:55:06.932086",
+ "modified": "2022-05-10 00:46:17.316621",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Assessment Result Program",

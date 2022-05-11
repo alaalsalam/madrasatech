@@ -104,6 +104,7 @@
    "fieldname": "maximum_assessment_score",
    "fieldtype": "Float",
    "label": "Maximum Assessment Score",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -149,7 +150,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-09 02:39:54.678180",
+ "modified": "2022-05-11 04:52:34.008611",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Assessment Plan Program",
