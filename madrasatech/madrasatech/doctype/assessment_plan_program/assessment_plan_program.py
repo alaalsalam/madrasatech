@@ -8,7 +8,7 @@ from frappe.model.document import Document
 class AssessmentPlanProgram(Document):
 	def validate(self):
 		self.validate_overlap()
-		# self.validate_max_score()
+		self.validate_max_score()
 		# self.validate_assessment_criteria()
 
 	def validate_overlap(self):
@@ -23,23 +23,23 @@ class AssessmentPlanProgram(Document):
 		# validate_overlap_for(self, "Course Schedule", "instructor")
 		# validate_overlap_for(self, "Course Schedule", "room")
 
-		# # validate overlapping assessment schedules.
-		# if self.student_group:
-		# 	validate_overlap_for(self, "Assessment Plan", "student_group")
+		# validate overlapping assessment schedules.
+		if self.student_group:
+			validate_overlap_for(self, "Assessment Plan", "student_group")
 
-		# validate_overlap_for(self, "Assessment Plan", "room")
-		# validate_overlap_for(self, "Assessment Plan", "supervisor", self.supervisor)
+		validate_overlap_for(self, "Assessment Plan", "room")
+		validate_overlap_for(self, "Assessment Plan", "supervisor", self.supervisor)
 
-	# def validate_max_score(self):
-	# 	max_score = 0
-	# 	for d in self.assessment_coursrs:
-	# 		max_score += d.maximum_score
-	# 	if self.maximum_assessment_score != max_score:
-	# 		frappe.throw(
-	# 			_("Sum of Scores of Assessment Criteria needs to be {0}.").format(
-	# 				self.maximum_assessment_score
-	# 			)
-	# 		)
+	def validate_max_score(self):
+		max_score = 0
+		for d in self.assessment_coursrs:
+			max_score += d.maximum_score
+		if self.maximum_assessment_score != max_score:
+			frappe.throw(
+				_("Sum of Scores of Assessment Criteria needs to be {0}.").format(
+					self.maximum_assessment_score
+				)
+			)
 	def max_score(self):
 		max_score = 0
 		for d in self.assessment_coursrs:

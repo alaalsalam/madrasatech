@@ -194,6 +194,9 @@ fixtures = [
                 "Student Applicant",
                 "Fee Structure",
                 "Instructor",
+                "Assessment Plan",
+                "Assessment Result"
+
             ]
         ]
     ]},
@@ -209,7 +212,9 @@ fixtures = [
                 "Program Enrollment",
                 "Room",
                 "Student Batch Name",
-                "Instructor"
+                "Instructor",
+                "Assessment Plan",
+                "Assessment Result"
             ]
         ]]
      }]
