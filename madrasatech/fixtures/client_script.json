@@ -2,6 +2,19 @@
  {
   "docstatus": 0,
   "doctype": "Client Script",
+  "dt": "Fees",
+  "enabled": 1,
+  "modified": "2022-04-27 01:31:05.226604",
+  "name": "Fees-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Fees', {\n\trefresh(frm) {\n\t\tfrm.set_query(\"fee_structure\", function() {\n\t\t\treturn{\n\t\t\t\t\"filters\":{\n\t\t\t\t\t'program': frm.doc.program,\n\t\t\t\t\t'academic_year': frm.doc.academic_year\n\t\t\t\t}\n\t\t\t};\n\t\t});\n\t}\n})\n// frappe.ui.form.on(\"Fess\", {\n// \tsetup: function(frm) {\n// \t\tfrm.set_query(\"program\", function() {\n// \t\t    if(frm.doc.stage !== \"\"){\n// \t\t        return {\n// \t\t\t\t    filters: [\n// \t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.stage]\n\t\t\t\t\t\n// \t\t\t\t]\n// \t\t\t}\n// \t\t    }\n\t\t\t\n// \t\t});\n// \t}\n// });\n\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
   "dt": "Student Applicant",
   "enabled": 1,
   "modified": "2022-05-06 09:13:48.246557",
@@ -23,19 +36,6 @@
   "parentfield": null,
   "parenttype": null,
   "script": "frappe.ui.form.on('Program Enrollment', {\n\trefresh(frm) {\n\t\tfrm.fields_dict['fees'].grid.get_field('fee_structure').get_query = function(doc, cdt, cdn) {\n\t\t\tvar d = locals[cdt][cdn];\n\t\t\treturn {\n\t\t\t\tfilters: {'program': frm.doc.program,'academic_year': frm.doc.academic_year,'academic_term': frm.doc.academic_term}\n\t\t\t}\n\t\t};\n\t}\n})\n\nfrappe.ui.form.on(\"Program Enrollment\", {\n// \tsetup: function(frm) {\n\trefresh(frm) {\n\t\tfrm.set_query(\"program\", function() {\n\t\t        return {\n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.student_batch_name]\n\t\t\t\t\t\n\t\t\t\t]\n\t\t\t\n\t\t    }\n\t\t\t\n\t\t});\n// \t\tif (frm.doc.program){\n// \t\t    //'program'= frm.doc.program\n// \t\t    frm.set_value('stage' ,frm.doc.student_batch_name);\n\t\t    \n// \t\t}\n\t}\n});",
-  "view": "Form"
- },
- {
-  "docstatus": 0,
-  "doctype": "Client Script",
-  "dt": "Fees",
-  "enabled": 1,
-  "modified": "2022-04-27 01:31:05.226604",
-  "name": "Fees-Form",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
-  "script": "frappe.ui.form.on('Fees', {\n\trefresh(frm) {\n\t\tfrm.set_query(\"fee_structure\", function() {\n\t\t\treturn{\n\t\t\t\t\"filters\":{\n\t\t\t\t\t'program': frm.doc.program,\n\t\t\t\t\t'academic_year': frm.doc.academic_year\n\t\t\t\t}\n\t\t\t};\n\t\t});\n\t}\n})\n// frappe.ui.form.on(\"Fess\", {\n// \tsetup: function(frm) {\n// \t\tfrm.set_query(\"program\", function() {\n// \t\t    if(frm.doc.stage !== \"\"){\n// \t\t        return {\n// \t\t\t\t    filters: [\n// \t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.stage]\n\t\t\t\t\t\n// \t\t\t\t]\n// \t\t\t}\n// \t\t    }\n\t\t\t\n// \t\t});\n// \t}\n// });\n\n",
   "view": "Form"
  },
  {
