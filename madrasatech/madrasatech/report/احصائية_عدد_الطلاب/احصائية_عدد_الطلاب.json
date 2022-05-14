@@ -1,0 +1,81 @@
+{
+ "add_total_row": 1,
+ "columns": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0637\u0627\u0644\u0628",
+   "width": 0
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0635\u0641",
+   "width": 0
+  },
+  {
+   "fieldname": "classroom",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0634\u0639\u0628\u0629",
+   "width": 0
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u062c\u0646\u0633",
+   "width": 0
+  }
+ ],
+ "creation": "2022-05-13 21:56:13.290333",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0635\u0641",
+   "mandatory": 0,
+   "options": "Program",
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u062c\u0646\u0633",
+   "mandatory": 1,
+   "options": "Gender",
+   "wildcard_filter": 0
+  },
+  {
+   "fieldname": "classroom",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u0634\u0639\u0628\u0629",
+   "mandatory": 1,
+   "options": "Room",
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "MadasaTech",
+ "modified": "2022-05-14 15:10:19.939563",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT  `tabProgram Enrollment`.`student_name`,`tabProgram Enrollment`.`program`,`tabStudent Group`.`classroom` ,`tabStudent`.`gender` \r\nfrom `tabProgram Enrollment` inner join `tabStudent Group` on `tabStudent Group`.`program`=`tabProgram Enrollment`.`program` \r\n inner join `tabStudent` on   `tabStudent`.`title`=`tabProgram Enrollment`.`student_name`  \r\n where `tabStudent Group`.`classroom`  =%(classroom)s or `tabStudent`.`gender` =%(gender)s   or `tabStudent Group`.`program`  =%(program)s  \r\n",
+ "ref_doctype": "Program Enrollment",
+ "report_name": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Academics User"
+  },
+  {
+   "role": "LMS User"
+  }
+ ]
+}
