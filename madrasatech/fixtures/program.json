@@ -992,11 +992,11 @@
   "docstatus": 0,
   "doctype": "Program",
   "hero_image": null,
-  "index_of_students_in_groups": 20,
+  "index_of_students_in_groups": 19,
   "intro_video": null,
   "is_featured": 0,
   "is_published": 0,
-  "modified": "2022-05-15 18:31:46.640930",
+  "modified": "2022-05-15 19:31:58.852450",
   "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
   "parent": null,
   "parentfield": null,
@@ -1004,7 +1004,7 @@
   "program_abbreviation": "1",
   "program_name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
   "stage": "\u0627\u0633\u0627\u0633\u064a",
-  "students_out_of_groups": -1,
+  "students_out_of_groups": 0,
   "total_number_of_students": 19
  },
  {
