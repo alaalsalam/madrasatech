@@ -63,5 +63,31 @@
   "parenttype": null,
   "script": "frappe.ui.form.on('Student Group', {\n\tbefore_load:function(frm) {\n\t    frm.set_df_property('group_based_on','reqd',0);\n\t    frm.set_df_property('student_group_name','reqd',0);\n\t\tfrm.set_df_property(\"group_based_on\",\"hidden\",1);\n\t}\n})",
   "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Room",
+  "enabled": 1,
+  "modified": "2022-05-14 23:56:34.913556",
+  "name": "Room-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Room', {\n\tsetup: function(frm) {\n\t\tfrm.set_query(\"grade\", function() {\n\t\t    if(frm.doc.stage){\n\t\t        return {\n\t\t\t\t    filters: {\n\t\t\t\t    'stage': frm.doc.stage,\n\t\t\t\t\t\n\t\t\t\t    }\n\t\t\t}}\n\t\t\t\n\t\t});\n\t},\n})",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Course Schedule",
+  "enabled": 1,
+  "modified": "2022-05-15 06:07:51.147338",
+  "name": "Course Schedule-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "var t_array = Array();\nfrappe.ui.form.on('Course Schedule', {\n\trefresh(frm) {\n\t    \n\t},\n\tcourse: function(frm){\n\t    console.log(\"True 1\");\n\t    if(frm.doc.course){\n\t          console.log(\"True 2\");\n\t\tvar tescher = frappe.db.get_list('Instructor');\n\t\ttescher.then(function(data1){\n\t\t    var t_info\n\t\t    for(let i in data1){\n\t\t        \n\t\t        t_info = frappe.db.get_doc('Instructor',data1[i].name);\n\t\t        t_info.then(function(data2){\n\t\t            if(data2.instructor_log.length){\n    \t\t            let arr = data2.instructor_log;\n    \t\t            for(let j in arr)\n    \t\t                if(arr[j].course==frm.doc.course)\n    \t\t                    t_array.push(data2.name);\n    \t\t                    \n    \t\t                  //  console.log(data2.instructor_name);\n    \t\t            }\n\t\t        })\n\t\t        \n\t\t    }\n\t\t});\n\t\t\n\t\t\n\t\n\tfrm.set_query(\"instructor\", function() {\n\t\t    if(frm.doc.course){\n\t\t        return {\n\t\t           \n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Instructor\",\"name\", \"in\",t_array]\n\t\t\t\t    // \teval(`[\\\"${t_array.join('\\\",\\\"')}\\\"]`)\n\t\t\t\t    \t]\n\t\t\t\t//     filters:{\n\t\t\t\t// \t\t   \"name\": t_array\n\t\t\t\t//   }\n\t\t\t\t\n\t\t\t};\n\t\t    }\n\t\t\t\n\t\t});\n\t\tconsole.log(t_array);\n\t    }\n\t    else\n\t    {\n\t        console.log(\"False \");\n\t    }\n\t},\n})",
+  "view": "Form"
  }
 ]

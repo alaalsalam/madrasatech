@@ -18,7 +18,7 @@
   "enable_discount_accounting": 0,
   "frozen_accounts_modifier": null,
   "make_payment_via_journal_entry": 0,
-  "modified": "2022-05-05 22:17:27.164736",
+  "modified": "2022-05-13 07:56:37.368879",
   "name": "Accounts Settings",
   "over_billing_allowance": 0.0,
   "parent": null,

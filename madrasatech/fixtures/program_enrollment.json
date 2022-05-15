@@ -8422,7 +8422,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00129",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8447,7 +8511,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00130",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8472,7 +8600,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00131",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8497,7 +8689,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00132",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8522,7 +8778,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00133",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8547,7 +8867,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00134",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8572,7 +8956,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00135",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8597,7 +9045,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00136",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8622,7 +9134,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00137",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8647,7 +9223,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00138",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8672,7 +9312,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00139",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8697,7 +9401,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00140",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8722,7 +9490,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00141",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8747,7 +9579,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00142",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8772,7 +9668,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00143",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8797,7 +9757,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00144",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8822,7 +9846,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00145",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8847,7 +9935,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00146",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8872,7 +10024,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00147",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8897,7 +10113,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00148",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8922,7 +10202,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00149",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8947,7 +10291,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00150",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8972,7 +10380,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00151",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -8997,7 +10469,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00152",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9022,7 +10558,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00153",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9047,7 +10647,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00154",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9072,7 +10736,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00155",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9097,7 +10825,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00156",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9122,7 +10914,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00157",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9147,7 +11003,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00158",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9172,7 +11092,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00159",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9197,7 +11181,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00160",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9222,7 +11270,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00161",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9247,7 +11359,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00162",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
@@ -9272,7 +11448,71 @@
   "academic_year": "2022- 2023",
   "amended_from": null,
   "boarding_student": 0,
-  "courses": [],
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   },
+   {
+    "course": "\u0627\u062d\u064a\u0627\u0621",
+    "course_name": null,
+    "parent": "EDU-ENR-2022-00163",
+    "parentfield": "courses",
+    "parenttype": "Program Enrollment"
+   }
+  ],
   "docstatus": 0,
   "doctype": "Program Enrollment",
   "enrollment_date": "2022-05-13",
