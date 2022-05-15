@@ -216,6 +216,7 @@ fixtures = [
                 "Program",
                 "Room",
                 "Student Applicant",
+                "Program Enrollment",
                 "Fee Structure",
                 "Instructor",
                 "Assessment Plan",
