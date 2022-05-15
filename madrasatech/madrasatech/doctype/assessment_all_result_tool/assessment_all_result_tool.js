@@ -30,7 +30,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 		frm.add_fetch("program", "stage", "stage");
 	},
 
-	refresh: function(frm) {
+	refresh: function(frm) {	
 		if (frappe.route_options) {
 			frm.set_value("student_group", frappe.route_options.student_group);
 			frm.set_value("assessment_plan", frappe.route_options.assessment_plan);

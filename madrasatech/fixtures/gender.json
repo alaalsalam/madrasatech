@@ -1,0 +1,72 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Male",
+  "modified": "2022-05-13 05:28:51.101623",
+  "name": "Male",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Female",
+  "modified": "2022-05-13 05:28:51.132381",
+  "name": "Female",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Other",
+  "modified": "2022-05-13 05:28:51.141694",
+  "name": "Other",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Transgender",
+  "modified": "2022-05-13 05:28:51.152074",
+  "name": "Transgender",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Genderqueer",
+  "modified": "2022-05-13 05:28:51.160274",
+  "name": "Genderqueer",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Non-Conforming",
+  "modified": "2022-05-13 05:28:51.169743",
+  "name": "Non-Conforming",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Gender",
+  "gender": "Prefer not to say",
+  "modified": "2022-05-13 05:28:51.179593",
+  "name": "Prefer not to say",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]

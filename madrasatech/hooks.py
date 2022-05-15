@@ -200,6 +200,11 @@ fixtures = [
         "Fee Category",
         "Payment Request",
         "Course Enrollment",
+        "Gender",
+        "Branch",
+        "Instructor",
+        "ClassRoom Devision",
+
         
     {"dt": "Custom Field", "filters": [
         [
@@ -215,8 +220,9 @@ fixtures = [
                 "Instructor",
                 "Assessment Plan",
                 "Assessment Result"
-                "Assessment Criteria"
-
+                "Assessment Criteria",
+                "Instructor",
+                
             ]
         ]
     ]},
@@ -236,7 +242,8 @@ fixtures = [
                 "Assessment Plan",
                 "Assessment Result",
                 "Course",
-                "Assessment Criteria"
+                "Assessment Criteria",
+                "Instructor",
             ]
         ]]
      }]

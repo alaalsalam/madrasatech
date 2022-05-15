@@ -1,9 +1,57 @@
 [
  {
+  "academic_year_name": "2015-16",
+  "docstatus": 0,
+  "doctype": "Academic Year",
+  "modified": "2022-05-13 05:28:47.168130",
+  "name": "2015-16",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "year_end_date": null,
+  "year_start_date": null
+ },
+ {
+  "academic_year_name": "2016-17",
+  "docstatus": 0,
+  "doctype": "Academic Year",
+  "modified": "2022-05-13 05:28:47.181263",
+  "name": "2016-17",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "year_end_date": null,
+  "year_start_date": null
+ },
+ {
+  "academic_year_name": "2017-18",
+  "docstatus": 0,
+  "doctype": "Academic Year",
+  "modified": "2022-05-13 05:28:47.187078",
+  "name": "2017-18",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "year_end_date": null,
+  "year_start_date": null
+ },
+ {
+  "academic_year_name": "2018-19",
+  "docstatus": 0,
+  "doctype": "Academic Year",
+  "modified": "2022-05-13 05:28:47.192662",
+  "name": "2018-19",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "year_end_date": null,
+  "year_start_date": null
+ },
+ {
   "academic_year_name": "2022- 2023",
   "docstatus": 0,
   "doctype": "Academic Year",
-  "modified": "2022-05-13 02:39:09.006412",
+  "modified": "2022-05-13 05:30:20.047603",
   "name": "2022- 2023",
   "parent": null,
   "parentfield": null,

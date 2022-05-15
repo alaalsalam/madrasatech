@@ -1,0 +1,22 @@
+[
+ {
+  "class_division": "A",
+  "docstatus": 0,
+  "doctype": "ClassRoom Devision",
+  "modified": "2022-05-14 23:40:43.874234",
+  "name": "A",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "class_division": "B",
+  "docstatus": 0,
+  "doctype": "ClassRoom Devision",
+  "modified": "2022-05-14 23:57:48.025805",
+  "name": "B",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]
