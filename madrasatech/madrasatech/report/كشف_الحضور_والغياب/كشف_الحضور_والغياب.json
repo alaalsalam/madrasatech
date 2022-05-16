@@ -1,0 +1,68 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "\u0625\u0633\u0645 \u0627\u0644\u0637\u0627\u0644\u0628",
+   "width": 0
+  },
+  {
+   "fieldname": "student_mobile_number",
+   "fieldtype": "Data",
+   "label": "\u0631\u0642\u0645 \u0627\u0644\u0647\u0627\u062a\u0641",
+   "width": 0
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "\u0627\u0644\u062a\u0627\u0631\u064a\u062e",
+   "width": 0
+  },
+  {
+   "fieldname": "student_group",
+   "fieldtype": "Date",
+   "label": "\u0627\u0644\u0635\u0641",
+   "width": 0
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u062d\u0627\u0644\u0629",
+   "width": 0
+  }
+ ],
+ "creation": "2022-05-11 00:33:23.770548",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "status",
+   "fieldtype": "Link",
+   "label": "\u0627\u0644\u062d\u0627\u0644\u0629",
+   "mandatory": 1,
+   "options": "doc.Student Attendance.status",
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "MadasaTech",
+ "modified": "2022-05-11 00:54:23.447178",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "\u0643\u0634\u0641 \u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0627\u0644\u063a\u064a\u0627\u0628",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select student_name,student_mobile_number,date,student_group,status from `tabStudent Attendance`\r\n where status = =%(status)s;\r\n",
+ "ref_doctype": "Student Attendance",
+ "report_name": "\u0643\u0634\u0641 \u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0627\u0644\u063a\u064a\u0627\u0628",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Academics User"
+  }
+ ]
+}
