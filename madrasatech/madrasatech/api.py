@@ -622,7 +622,7 @@ def get_result_program_all_coures(student,assessment_criteria_program,type_test)
 	if results:
 		for a in results:
 			doc = frappe.get_doc("Assessment Result", a)
-			assessment_result_doc_array.append(doc.total_score)
+			assessment_result_doc_array.append(doc)
 			
 		return assessment_result_doc_array
 	else:
