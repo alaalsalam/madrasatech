@@ -16,19 +16,6 @@ class AssessmentPlanProgram(Document):
 
 		from erpnext.education.utils import validate_overlap_for
 
-		# # Validate overlapping course schedules.
-		# if self.student_group:
-		# 	validate_overlap_for(self, "Course Schedule", "student_group")
-
-		# validate_overlap_for(self, "Course Schedule", "instructor")
-		# validate_overlap_for(self, "Course Schedule", "room")
-
-		# validate overlapping assessment schedules.
-		if self.student_group:
-			validate_overlap_for(self, "Assessment Plan", "student_group")
-
-		validate_overlap_for(self, "Assessment Plan", "room")
-		validate_overlap_for(self, "Assessment Plan", "supervisor", self.supervisor)
 
 	def validate_max_score(self):
 		max_score = 0

@@ -153,7 +153,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 			max_total_score += c.maximum_score
 		});
 		
-		var result_table = $(frappe.render_template('assessment_result_tool', {
+		var result_table = $(frappe.render_template('assessment_result_tool_program', {
 			frm: frm,
 			students: frm.doc.students,
 			criteria: criteria_list,
