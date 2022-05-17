@@ -66,6 +66,7 @@ frappe.ui.form.on('Assessment Plan Program', {
 					let max_score = 0;
 					let course = r.message;
 					course.forEach((c) => {
+						console.log(typeof(c));
 						c.assessment_criteria = c.course;
 						c.maximum_score = frm.doc.maximum_score_program;
 						max_score += frm.doc.maximum_score_program

@@ -196,6 +196,7 @@ fixtures = [
         "Academic Term",
         "Fee Category",
         "Assessment Group",
+        "Assessment Criteria",
         "Client Script",
         "Fee Category",
         "Payment Request",
