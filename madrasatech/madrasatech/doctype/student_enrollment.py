@@ -10,7 +10,9 @@ from frappe.utils import random_string
 
 from erpnext.education.utils import validate_duplicate_student
 
-
+"""
+It returns the number of students registered in a certain program 
+"""
 @frappe.whitelist()
 def get_number_of_students_in_program(program):
 

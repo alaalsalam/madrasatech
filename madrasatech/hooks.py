@@ -181,31 +181,31 @@ user_data_fields = [
 
 # for reference
 fixtures = [
-        # "Student Batch Name",
-        # "Program",
-        # "Course",
-        # "Student Applicant",
-        # "Student Admission",
-        # "Program Enrollment",
-        # "Student",
-        # "Education Settings",
-        # "Accounts Settings",
-        # "Student Category",
-        # "Grading Scale",
-        # "Academic Year",
-        # "Academic Term",
-        # "Fee Category",
-        # "Assessment Group",
-        # "Assessment Criteria",
-        # "Client Script",
-        # "Fee Category",
-        # "Payment Request",
-        # "Course Enrollment",
-        # "Gender",
-        # "Branch",
-        # "Instructor",
-        # "ClassRoom Devision",
-
+        "Student Batch Name",
+        "Program",
+        "Course",
+        "Student Applicant",
+        "Student Admission",
+        "Program Enrollment",
+        "Student",
+        "Education Settings",
+        "Accounts Settings",
+        "Student Category",
+        "Grading Scale",
+        "Academic Year",
+        "Academic Term",
+        "Fee Category",
+        "Assessment Group",
+        "Client Script",
+        "Fee Category",
+        "Payment Request",
+        "Course Enrollment",
+        "Gender",
+        "Branch",
+        "Instructor",
+        "ClassRoom Devision",
+        "Student Number",
+        "Students",
         
     {"dt": "Custom Field", "filters": [
         [
@@ -224,6 +224,8 @@ fixtures = [
                 "Assessment Result"
                 "Assessment Criteria",
                 "Instructor",
+                "Student Number",
+                "Students",
                 
             ]
         ]
@@ -246,6 +248,8 @@ fixtures = [
                 "Course",
                 "Assessment Criteria",
                 "Instructor",
+                "Student Number",
+                "Students",
             ]
         ]]
      }]
