@@ -206,6 +206,8 @@ fixtures = [
         "ClassRoom Devision",
         "Student Number",
         "Students",
+        "Naming Series",
+
         
     {"dt": "Custom Field", "filters": [
         [
@@ -226,6 +228,7 @@ fixtures = [
                 "Instructor",
                 "Student Number",
                 "Students",
+                "Course Enrollment"
                 
             ]
         ]
