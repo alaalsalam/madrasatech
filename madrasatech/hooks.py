@@ -204,10 +204,14 @@ fixtures = [
         "Branch",
         "Instructor",
         "ClassRoom Devision",
+<<<<<<< HEAD
         "Student Number",
         "Students",
         "Naming Series",
 
+=======
+        "Workspace",
+>>>>>>> 41ed3c6ae8abc4b3441678f61bd58498b52c184c
         
     {"dt": "Custom Field", "filters": [
         [
@@ -226,9 +230,13 @@ fixtures = [
                 "Assessment Result"
                 "Assessment Criteria",
                 "Instructor",
+<<<<<<< HEAD
                 "Student Number",
                 "Students",
                 "Course Enrollment"
+=======
+                "Workspace",
+>>>>>>> 41ed3c6ae8abc4b3441678f61bd58498b52c184c
                 
             ]
         ]
@@ -251,8 +259,7 @@ fixtures = [
                 "Course",
                 "Assessment Criteria",
                 "Instructor",
-                "Student Number",
-                "Students",
+                "Workspace",
             ]
         ]]
      }]

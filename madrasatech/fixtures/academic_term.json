@@ -1,0 +1,72 @@
+[
+ {
+  "academic_year": "2016-17",
+  "docstatus": 0,
+  "doctype": "Academic Term",
+  "modified": "2022-05-09 09:30:44.125356",
+  "name": "2016-17 (Semester 1)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "term_end_date": null,
+  "term_name": "Semester 1",
+  "term_start_date": null,
+  "title": "2016-17 (Semester 1)"
+ },
+ {
+  "academic_year": "2016-17",
+  "docstatus": 0,
+  "doctype": "Academic Term",
+  "modified": "2022-05-09 09:30:44.138032",
+  "name": "2016-17 (Semester 2)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "term_end_date": null,
+  "term_name": "Semester 2",
+  "term_start_date": null,
+  "title": "2016-17 (Semester 2)"
+ },
+ {
+  "academic_year": "2017-18",
+  "docstatus": 0,
+  "doctype": "Academic Term",
+  "modified": "2022-05-09 09:30:44.143589",
+  "name": "2017-18 (Semester 1)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "term_end_date": null,
+  "term_name": "Semester 1",
+  "term_start_date": null,
+  "title": "2017-18 (Semester 1)"
+ },
+ {
+  "academic_year": "2017-18",
+  "docstatus": 0,
+  "doctype": "Academic Term",
+  "modified": "2022-05-09 09:30:44.149338",
+  "name": "2017-18 (Semester 2)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "term_end_date": null,
+  "term_name": "Semester 2",
+  "term_start_date": null,
+  "title": "2017-18 (Semester 2)"
+ },
+ {
+  "academic_year": "2022- 2023",
+  "docstatus": 0,
+  "doctype": "Academic Term",
+  "modified": "2022-05-11 11:25:34.358712",
+  "name": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644)",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "term_end_date": null,
+  "term_name": "\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644",
+  "term_start_date": null,
+  "title": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644)"
+ }
+]
