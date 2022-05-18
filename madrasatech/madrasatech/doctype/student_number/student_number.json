@@ -1,26 +1,21 @@
 {
  "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:academic_year",
  "creation": "2021-10-04 15:04:26.728842",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "program",
-  "student_group",
+  "academic_year",
+  "random_number_for_secret_keys",
   "column_break_2",
-  "academic_term",
-  "student_category",
   "students_section",
   "generate_numbers",
-  "students"
+  "students",
+  "amended_from"
  ],
  "fields": [
-  {
-   "fieldname": "student_group",
-   "fieldtype": "Link",
-   "label": "Student Group",
-   "options": "Student Group"
-  },
   {
    "fieldname": "generate_numbers",
    "fieldtype": "Button",
@@ -35,12 +30,6 @@
    "options": "Students"
   },
   {
-   "fieldname": "academic_term",
-   "fieldtype": "Link",
-   "label": "Academic Term",
-   "options": "Academic Term"
-  },
-  {
    "fieldname": "column_break_2",
    "fieldtype": "Column Break"
   },
@@ -50,21 +39,35 @@
    "label": "STUDENTS"
   },
   {
-   "fieldname": "program",
+   "fieldname": "academic_year",
    "fieldtype": "Link",
-   "label": "Program",
-   "options": "Program"
+   "in_list_view": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "reqd": 1,
+   "unique": 1
   },
   {
-   "fieldname": "student_category",
+   "fieldname": "amended_from",
    "fieldtype": "Link",
-   "label": "Student Category",
-   "options": "Student Category"
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Student Number",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "default": "7",
+   "fieldname": "random_number_for_secret_keys",
+   "fieldtype": "Int",
+   "label": "Random number for secret keys",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2021-10-04 18:33:34.970476",
+ "modified": "2022-05-18 12:07:30.640262",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Student Number",

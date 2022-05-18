@@ -204,8 +204,7 @@ fixtures = [
         "Branch",
         "Instructor",
         "ClassRoom Devision",
-        "Student Number",
-        "Students",
+        "Workspace",
         
     {"dt": "Custom Field", "filters": [
         [
@@ -224,8 +223,7 @@ fixtures = [
                 "Assessment Result"
                 "Assessment Criteria",
                 "Instructor",
-                "Student Number",
-                "Students",
+                "Workspace",
                 
             ]
         ]
@@ -248,8 +246,7 @@ fixtures = [
                 "Course",
                 "Assessment Criteria",
                 "Instructor",
-                "Student Number",
-                "Students",
+                "Workspace",
             ]
         ]]
      }]

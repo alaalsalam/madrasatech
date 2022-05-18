@@ -1,0 +1,22 @@
+[
+ {
+  "academic_term_reqd": 0,
+  "attendance_freeze_date": null,
+  "current_academic_term": null,
+  "current_academic_year": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Education Settings",
+  "enable_lms": 0,
+  "instructor_created_by": "Full Name",
+  "modified": "2022-05-09 11:58:16.936197",
+  "name": "Education Settings",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "portal_title": null,
+  "user_creation_skip": 0,
+  "validate_batch": 0,
+  "validate_course": 0
+ }
+]

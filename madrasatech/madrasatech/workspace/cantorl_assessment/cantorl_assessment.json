@@ -45,6 +45,15 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Assessment Result Detail Program",
+   "link_to": "Assessment Result Detail Program",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Assessment Criteria Program",
    "link_to": "Assessment Criteria Program",
    "link_type": "DocType",
@@ -56,6 +65,51 @@
    "is_query_report": 0,
    "label": "Assessment Plan Criteria Program",
    "link_to": "Assessment Plan Criteria Program",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student Assessment",
+   "link_to": "Student Assessment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Student Detail",
+   "link_to": "Assessment Student Detail",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Student Course",
+   "link_to": "Assessment Student Course",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Student",
+   "link_to": "Assessment Student",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "test result",
+   "link_to": "test result",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -95,10 +149,18 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pass Students",
+   "link_to": "Pass Students",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
-
- "modified": "2022-05-09 09:51:24.175891",
+ "modified": "2022-05-18 10:50:13.822949",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Cantorl Assessment",
