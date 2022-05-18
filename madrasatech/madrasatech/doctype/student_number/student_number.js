@@ -17,10 +17,7 @@ frappe.ui.form.on('Student Number', {
 			method: 'madrasatech.madrasatech.doctype.student_number.student_number.fill_students',
 			args: {
 				st_no: frm.doc.name,
-				std_group: frm.doc.student_group,
-				program: frm.doc.program,
-				academic_term: frm.doc.academic_term,
-				student_category: frm.doc.student_category
+				academic_year: frm.doc.academic_year
 			},
 			callback: function (msg) {
 				refresh_field("students");

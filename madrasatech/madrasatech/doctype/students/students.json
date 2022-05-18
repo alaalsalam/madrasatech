@@ -6,45 +6,54 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "student",
   "student_name",
+  "student",
+  "student_group",
   "exam_number",
-  "secret_number",
-  "student_group"
+  "secret_number"
  ],
  "fields": [
   {
    "fieldname": "student",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Student",
-   "options": "Student"
+   "options": "Student",
+   "reqd": 1
   },
   {
    "fieldname": "student_name",
    "fieldtype": "Data",
-   "label": "Student Name"
+   "in_list_view": 1,
+   "label": "Student Name",
+   "reqd": 1
   },
   {
    "fieldname": "exam_number",
    "fieldtype": "Int",
-   "label": "Exam Number"
+   "in_list_view": 1,
+   "label": "Seating Number",
+   "reqd": 1
   },
   {
    "fieldname": "secret_number",
    "fieldtype": "Data",
-   "label": "Secret Number"
+   "label": "Secret Number",
+   "reqd": 1
   },
   {
    "fieldname": "student_group",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Student Group",
-   "options": "Student Group"
+   "options": "Student Group",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2022-05-09 10:36:28.251583",
+ "modified": "2022-05-18 12:12:44.397196",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Students",

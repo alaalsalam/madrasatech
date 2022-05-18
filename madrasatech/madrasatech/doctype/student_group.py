@@ -210,22 +210,14 @@ def fetch_students(doctype, txt, searchfield, start, page_len, filters):
         )
 
 
+"""
+ It updates the number of the student in and out of groups
+"""
+
+
 @frappe.whitelist()
 def update_number_of_students_in_program(program, index_of_students_in_groups, students_out_of_groups):
     doc = frappe.get_doc('Program', program)
     doc.index_of_students_in_groups = int(index_of_students_in_groups)
     doc.students_out_of_groups = int(students_out_of_groups)
     doc.save()
-
-
-# @frappe.whitelist()
-# def increase_or_decrease_one_student_in_program(program, index_of_students_in_groups, change):
-#     doc = frappe.get_doc('Program', program)
-#     if int(change) == 1:
-#         doc.index_of_students_in_groups = int(index_of_students_in_groups) + 1
-#     else:
-#         doc.index_of_students_in_groups = int(index_of_students_in_groups) - 1
-
-#     doc.students_out_of_groups = int(
-#         doc.total_number_of_students) - doc.index_of_students_in_groups
-#     doc.save()

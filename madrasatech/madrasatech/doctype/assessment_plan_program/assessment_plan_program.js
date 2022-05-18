@@ -66,6 +66,7 @@ frappe.ui.form.on('Assessment Plan Program', {
 					let max_score = 0;
 					let course = r.message;
 					course.forEach((c) => {
+						console.log(typeof(c));
 						c.assessment_criteria = c.course;
 						c.maximum_score = frm.doc.maximum_score_program;
 						max_score += frm.doc.maximum_score_program
@@ -79,29 +80,29 @@ frappe.ui.form.on('Assessment Plan Program', {
 		})
 	},
 
-	maximum_assessment_score: function(frm) {
-		frm.trigger('course');
-	},
-	course: function(frm) {
-		if (frm.doc.course && frm.doc.maximum_assessment_score) {
-			frappe.call({
-				method: 'madrasatech.madrasatech.api.get_assessment_criteria',
-				args: {
-					course: frm.doc.course
-				},
-				callback: function(r) {
-					if (r.message) {
-						frm.doc.assessment_criteria = [];
-						$.each(r.message, function(i, d) {
-							var row = frappe.model.add_child(frm.doc, 'Assessment Plan Criteria', 'assessment_criteria');
-							row.assessment_criteria = d.assessment_criteria;
-							row.maximum_score = d.weightage / 100 * frm.doc.maximum_assessment_score;
-						});
-					}
-					refresh_field('assessment_criteria');
+	// maximum_assessment_score: function(frm) {
+	// 	frm.trigger('course');
+	// },
+	// course: function(frm) {
+	// 	if (frm.doc.course && frm.doc.maximum_assessment_score) {
+	// 		frappe.call({
+	// 			method: 'madrasatech.madrasatech.api.get_assessment_criteria',
+	// 			args: {
+	// 				course: frm.doc.course
+	// 			},
+	// 			callback: function(r) {
+	// 				if (r.message) {
+	// 					frm.doc.assessment_criteria = [];
+	// 					$.each(r.message, function(i, d) {
+	// 						var row = frappe.model.add_child(frm.doc, 'Assessment Plan Criteria', 'assessment_criteria');
+	// 						row.assessment_criteria = d.assessment_criteria;
+	// 						row.maximum_score = d.weightage / 100 * frm.doc.maximum_assessment_score;
+	// 					});
+	// 				}
+	// 				refresh_field('assessment_criteria');
 
-				}
-			});
-		}
-	},
+	// 			}
+	// 		});
+	// 	}
+	// },
 });

@@ -11,35 +11,30 @@ class StudentNumber(Document):
 
 
 @frappe.whitelist()
-def get_students_list(std_group, program):
-    filters = [program]
-    cond = ''
-    if std_group:
-        cond += ' and sg.name=%s '
-        filters.append(std_group)
+def get_students_list(academic_year):
 
-    return frappe.db.sql("""select sgs.student, sgs.student_name, sg.program, sg.student_group_name
+    return frappe.db.sql("""select sgs.student, sgs.student_name, sg.program, sg.academic_year, sg.student_group_name
 			from `tabStudent Group` sg
 			LEFT JOIN  `tabStudent Group Student` sgs 
 			ON sg.name=sgs.parent
-			where sg.program=%s {0}
-			""".format(cond), filters, as_dict=True)
-
+            ORDER BY sgs.student_name
+			""", as_dict=True)
 
 @frappe.whitelist()
-def fill_students(st_no, std_group=None, program=None):
-    students = get_students_list(
-        std_group, program)
+def fill_students(st_no, academic_year=None):
+    students = get_students_list(academic_year)
 
     if not students:
         frappe.msgprint(_("No students for the mentioned Students group"))
+    student_number = frappe.get_doc("Student Number", st_no)
+    random = int(student_number.random_number_for_secret_keys)
     i = 1
     for std in students:
         std['exam_number'] = i
-        std['secret_number'] = random_string(10)
+        std['secret_number'] = academic_year + str(i * random * random + random)
         i += 1
 
-    student_number = frappe.get_doc("Student Number", st_no)
+   
     student_number.students = None
     for d in students:
         if d.student not in students:
