@@ -616,7 +616,6 @@ def get_assessment_students_program(assessment_plan, student_group):
 def get_assessment_students_program_all_coures(assessment_plan, assessment_criteria_program, student_group, type_test):
     student_list = get_student_group_students(student_group)
     for student in student_list:
-        # result = get_result_program(student.student, assessment_plan)
         result = get_result_program_all_coures(
             student.student, assessment_criteria_program, type_test)
         if result:
@@ -651,9 +650,10 @@ def get_result_program_all_coures(student, assessment_criteria_program, type_tes
     results = frappe.get_all(
         "Assessment Result",
         filters={"student": student,
-                 "course": assessment_criteria_program, "type_test": type_test},
+                 "course": assessment_criteria_program,
+                 "type_test": type_test},
     )
-    if results:
+    if len(results) > 0:
         for a in results:
             doc = frappe.get_doc("Assessment Result", a)
             assessment_result_doc_array.append(doc)
@@ -661,11 +661,11 @@ def get_result_program_all_coures(student, assessment_criteria_program, type_tes
         return assessment_result_doc_array
     else:
         # frappe.msgprint(_('	Ala False get_result_program_all_coures -_- '))
-        return None
+        return 0
 
 
 @frappe.whitelist()
-def get_assessment_details_program_all_course(assessment_plan):
+def get_assessment_details_program_all_course(assessment_plan , ):
     """Returns Assessment Criteria Program  and Maximum Score from Assessment Plan Master.
 
     :param Assessment Plan: Assessment Plan
@@ -686,7 +686,7 @@ def get_assessment_details_program_all_course(assessment_plan):
     # else:
     # 	return None
 
-
+@frappe.whitelist
 # @frappe.whitelist()
 # def get_student_assignment_plan(student_group):
 # 	"""Returns Submitted Result of given student for specified Assessment Plan
