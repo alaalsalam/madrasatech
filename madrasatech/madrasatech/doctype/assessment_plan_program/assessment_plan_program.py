@@ -70,31 +70,31 @@ class AssessmentPlanProgram(Document):
 			as_dict=1,
 		)
 	
-	def on_submit(self):
-		self.create_assessment_result()
+	# def on_submit(self):
+	# 	self.create_assessment_result()
 
-	def create_assessment_result(self):
+	# def create_assessment_result(self):
 		# student = frappe.get_doc("Student", self.student)
 		# course_list = [course.course for course in self.courses]
 		# for course_name in course_list:
 		# 	student.enroll_in_course(
 		# 		course_name=course_name, program_enrollment=self.name, enrollment_date=self.enrollment_date
 		# 	)
-		student_list = get_student_group_students(self.student_group)
-		count = 0
+		# student_list = get_student_group_students(self.student_group)
+		# count = 0
 		# frappe.throw(_("You count {}").format(student_list.student))
-		for student in student_list:
+		# for student in student_list:
 			# pass
 			# frappe.throw(_("You  {}").format(i))
 			# frappe.msgprint(_("Result already Submitted{}").format())
-			doc = frappe.new_doc('Assessment Result Program')
-			doc.assessment_plan = self.name
-			doc.student = student.student
-			doc.student_group = self.student_group
-			doc.insert(ignore_permissions=True, ignore_links=True, ignore_if_duplicate=True,ignore_mandatory=True)
-			count +=1
+			# doc = frappe.new_doc('Assessment Result Program')
+			# doc.assessment_plan = self.name
+			# doc.student = student.student
+			# doc.student_group = self.student_group
+			# doc.insert(ignore_permissions=True, ignore_links=True, ignore_if_duplicate=True,ignore_mandatory=True)
+			# count +=1
 
-			frappe.msgprint(_("Result already Submitted{}").format(count))			
+			# frappe.msgprint(_("Result already Submitted{}").format(count))			
 	
 	# @frappe.whitelist()
 	# def get_courses(self):
