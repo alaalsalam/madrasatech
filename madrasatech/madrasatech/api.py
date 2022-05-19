@@ -613,11 +613,11 @@ def get_assessment_students_program(assessment_plan, student_group):
 
 
 @frappe.whitelist()
-def get_assessment_students_program_all_coures(assessment_plan, assessment_criteria_program, student_group, type_test):
+def get_assessment_students_program_all_coures(assessment_plan, assessment_criteria_program, student_group, type_test,assessment_group):
     student_list = get_student_group_students(student_group)
     for student in student_list:
         result = get_result_program_all_coures(
-            student.student, assessment_criteria_program, type_test)
+            student.student, assessment_criteria_program, type_test,assessment_group)
         if result:
             student_result = {}
             for d in result:
@@ -640,7 +640,7 @@ def get_assessment_students_program_all_coures(assessment_plan, assessment_crite
 
 
 @frappe.whitelist()
-def get_result_program_all_coures(student, assessment_criteria_program, type_test):
+def get_result_program_all_coures(student, assessment_criteria_program, type_test,assessment_group):
     """Returns Submitted Result of given student for specified Assessment Plan
 
     :param Student: Student
@@ -651,7 +651,9 @@ def get_result_program_all_coures(student, assessment_criteria_program, type_tes
         "Assessment Result",
         filters={"student": student,
                  "course": assessment_criteria_program,
-                 "type_test": type_test},
+                 "type_test": type_test,
+                 "assessment_group":assessment_group
+                 },
     )
     if len(results) > 0:
         for a in results:

@@ -1,36 +1,37 @@
 // Copyright (c) 2022, MadrasaTech TEAM and contributors
 // For license information, please see license.txt
-var course_array ;
-function get_assessment_resulte_for_all_course(course_name , frm){
-	// console.log(frm.doc);
+// var course_array ;
+// function get_assessment_resulte_for_all_course(course_name , frm){
+// 	// console.log(frm.doc);
 	
-	frappe.call({
-		method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
-		args: {
-			"student":frm.doc.student,
-			"assessment_criteria_program":course_name,
-			'type_test':frm.doc.type_test,
-		},
-		callback: function(r) {
-			// console.log("result ->",r.message)
-			if (r.message) {
-				var msg = r.message;
-				for( let i in msg){
-					// course_array.push(r.message[i].total_score)
-					console.log(typeof(msg[i].total_score));
-					course_array = msg[i].total_score;
+// 	frappe.call({
+// 		method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
+// 		args: {
+// 			"student":frm.doc.student,
+// 			"assessment_criteria_program":course_name,
+// 			'type_test':frm.doc.type_test,
+// 			"assessment_group":d.assessment_group
+// 		},
+// 		callback: function(r) {get_result_program_all_coures
+// 			// console.log("result ->",r.message)
+// 			if (r.message) {
+// 				var msg = r.message;
+// 				for( let i in msg){
+// 					// course_array.push(r.message[i].total_score)
+// 					console.log(typeof(msg[i].total_score));
+// 					course_array = msg[i].total_score;
 
-				}
-				// console.log("result 1->",course_array)
-				return 5;	
-				// frm.refresh_field('details');
-			}
-			else
-				return false;
-		}
-	});
+// 				}
+// 				// console.log("result 1->",course_array)
+// 				return 5;	
+// 				// frm.refresh_field('details');
+// 			}
+// 			else
+// 				return false;
+// 		}
+// 	});
 
-}
+// }
 frappe.ui.form.on('Assessment Result Program', {
 	refresh: function(frm) {
 		if (!frm.doc.__islocal) {
@@ -92,12 +93,13 @@ frappe.ui.form.on('Assessment Result Program', {
 								args: {
 									"student":frm.doc.student,
 									"assessment_criteria_program":d.assessment_criteria,
+									"assessment_group":frm.doc.assessment_group,
 									'type_test':frm.doc.type_test,
 								},
 								callback: function(r) {
 									// console.log("result ->",r.message);
 									if (r.message) {
-											row.score = r.message[0].total_score;
+											row.score = (r.message[0].total_score)|round|int;
 										}
 									
 									else
