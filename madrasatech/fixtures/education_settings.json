@@ -1,22 +1,22 @@
 [
  {
-  "academic_term_reqd": 1,
+  "academic_term_reqd": 0,
   "attendance_freeze_date": null,
-  "current_academic_term": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644)",
-  "current_academic_year": "2022- 2023",
-  "description": "Some Introduction about your company that you would like your website visitor to know. More people than you think will read your About page. People always like to know who the are doing business with.",
+  "current_academic_term": null,
+  "current_academic_year": null,
+  "description": null,
   "docstatus": 0,
   "doctype": "Education Settings",
-  "enable_lms": 1,
+  "enable_lms": 0,
   "instructor_created_by": "Full Name",
-  "modified": "2022-05-13 02:16:57.777977",
+  "modified": "2022-05-09 11:58:16.936197",
   "name": "Education Settings",
   "parent": null,
   "parentfield": null,
   "parenttype": null,
-  "portal_title": "Madrasatech",
-  "user_creation_skip": 1,
-  "validate_batch": 1,
-  "validate_course": 1
+  "portal_title": null,
+  "user_creation_skip": 0,
+  "validate_batch": 0,
+  "validate_course": 0
  }
 ]
