@@ -1,0 +1,87 @@
+{
+ "_liked_by": "[\"Administrator\"]",
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "course",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0645\u0627\u062f\u0629",
+   "width": 0
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0635\u0641 ",
+   "width": 0
+  },
+  {
+   "fieldname": "student_group",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0634\u0639\u0628\u0629",
+   "width": 0
+  },
+  {
+   "fieldname": "maximum_score",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u062f\u0631\u062c\u0629 \u0627\u0644\u0646\u0647\u0627\u0626\u064a\u0629",
+   "width": 0
+  },
+  {
+   "fieldname": "total_score",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0645\u062c\u0645\u0648\u0639",
+   "width": 0
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u062a\u0642\u062f\u064a\u0631",
+   "width": 0
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Data",
+   "label": "\u0627\u0644\u0639\u0627\u0645 \u0627\u0644\u062f\u0631\u0627\u0633\u064a",
+   "width": 0
+  },
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "\u0627\u0633\u0645 \u0627\u0644\u0637\u0627\u0644\u0628",
+   "width": 0
+  }
+ ],
+ "creation": "2022-05-19 12:32:35.214158",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "student_name",
+   "fieldtype": "Link",
+   "label": " \u0627\u0633\u0645 \u0627\u0644\u0637\u0627\u0644\u0628",
+   "mandatory": 1,
+   "options": "Student",
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "MadasaTech",
+ "modified": "2022-05-19 12:58:50.453861",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "\u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0637\u0627\u0644\u0628 \u0627\u0644\u0648\u0627\u062d\u062f",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT `tabAssessment Result`.`course`, `tabAssessment Result`.`program`,`tabAssessment Result`.`student_name`,`tabAssessment Result`.`student_group`, \r\n`tabAssessment Result`.`maximum_score`,`tabAssessment Result`.`total_score` ,\r\n`tabAssessment Result`.`grade`,`tabAssessment Result`.`academic_year`\r\nfrom  `tabAssessment Result` where  `tabAssessment Result`.`student_name`= %(student_name)s;\r\n",
+ "ref_doctype": "Assessment Result",
+ "report_name": "\u0646\u062a\u0627\u0626\u062c \u0627\u0644\u0637\u0627\u0644\u0628 \u0627\u0644\u0648\u0627\u062d\u062f",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Academics User"
+  }
+ ]
+}

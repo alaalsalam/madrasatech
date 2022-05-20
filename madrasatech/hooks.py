@@ -1,3 +1,4 @@
+
 from . import __version__ as app_version
 
 app_name = "madrasatech"
@@ -184,30 +185,27 @@ user_data_fields = [
 
 # for reference
 fixtures = [
-        "Student Batch Name",
-        "Program",
-        "Course",
-        "Student Applicant",
-        "Student Admission",
-        # "Program Enrollment",
-        # "Student",
-        "Education Settings",
-        "Accounts Settings",
-        "Student Category",
-        "Grading Scale",
-        # "Academic Year",
-        # "Academic Term",
-        "Fee Category",
-        # "Assessment Group",
-        "Client Script",
-        "Fee Category",
-        "Payment Request",
-        "Course Enrollment",
-        "Gender",
-        "Branch",
-        "Instructor",
-        "ClassRoom Devision",
-        "Workspace",
+        # "Program",
+        # "Course",
+        # "Student Applicant",
+        # "Student Admission",
+        # # "Program Enrollment",
+        # # "Student",
+        # "Education Settings",
+        # "Accounts Settings",
+        # "Student Category",
+        # "Grading Scale",
+        # # "Academic Year",
+        # # "Academic Term",
+        # "Fee Category",
+        # # "Assessment Group",
+        # "Client Script",
+        # "Fee Category",
+        # "Payment Request",
+        # "Course Enrollment",
+        # "Gender",
+        # "Instructor",
+        # "Workspace",
         
     {"dt": "Custom Field", "filters": [
         [
