@@ -1,0 +1,1106 @@
+[
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-11 10:51:10.909073",
+  "name": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "7",
+  "program_name": "\u0633\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 0,
+  "total_number_of_students": 0
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0623\u062d\u064a\u0627\u0621",
+    "course_name": "\u0623\u062d\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-21 15:42:11.518834",
+  "name": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "11",
+  "program_name": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
+  "stage": "\u062b\u0627\u0646\u0648\u064a",
+  "students_out_of_groups": 4,
+  "total_number_of_students": 4
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-11 10:51:10.998663",
+  "name": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "6",
+  "program_name": "\u0633\u0627\u062f\u0633 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 0,
+  "total_number_of_students": 0
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-15 17:05:33.992581",
+  "name": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "5",
+  "program_name": "\u062e\u0627\u0645\u0633 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 1,
+  "total_number_of_students": 1
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0623\u062d\u064a\u0627\u0621",
+    "course_name": "\u0623\u062d\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-15 17:04:43.240065",
+  "name": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "12",
+  "program_name": "\u062b\u0627\u0644\u062b - \u062b\u0627\u0646\u0648\u064a",
+  "stage": "\u062b\u0627\u0646\u0648\u064a",
+  "students_out_of_groups": 2,
+  "total_number_of_students": 2
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-11 10:51:11.043719",
+  "name": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "4",
+  "program_name": "\u0631\u0627\u0628\u0639 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 0,
+  "total_number_of_students": 0
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-11 10:51:11.057800",
+  "name": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "3",
+  "program_name": "\u062b\u0627\u0644\u062b - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 0,
+  "total_number_of_students": 0
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-11 10:51:11.087427",
+  "name": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "8",
+  "program_name": "\u062b\u0627\u0645\u0646 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 0,
+  "total_number_of_students": 0
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "course_name": "\u0641\u064a\u0632\u064a\u0627\u0621",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "course_name": "\u0643\u064a\u0645\u064a\u0627\u0621",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0623\u062d\u064a\u0627\u0621",
+    "course_name": "\u0623\u062d\u064a\u0627\u0621",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-20 17:20:40.599514",
+  "name": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "10",
+  "program_name": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
+  "stage": "\u062b\u0627\u0646\u0648\u064a",
+  "students_out_of_groups": 2,
+  "total_number_of_students": 2
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-11 10:51:11.101254",
+  "name": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "2",
+  "program_name": "\u062b\u0627\u0646\u064a - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 0,
+  "total_number_of_students": 0
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-21 15:40:11.919741",
+  "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "1",
+  "program_name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 19,
+  "total_number_of_students": 19
+ },
+ {
+  "allow_self_enroll": 0,
+  "courses": [
+   {
+    "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "course_name": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "course_name": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "course_name": "\u0644\u063a\u0629 \u0639\u0631\u0628\u064a",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "course_name": "\u0644\u063a\u0629 \u0625\u0646\u062c\u0644\u064a\u0632\u064a\u0629",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "course_name": "\u0631\u064a\u0627\u0636\u064a\u0627\u062a",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u0639\u0644\u0648\u0645",
+    "course_name": "\u0639\u0644\u0648\u0645",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "course_name": "\u062c\u063a\u0631\u0627\u0641\u064a\u0627\u0621",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 1
+   },
+   {
+    "course": "\u062d\u0627\u0633\u0648\u0628",
+    "course_name": "\u062d\u0627\u0633\u0648\u0628",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   },
+   {
+    "course": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "course_name": "\u0643\u0644 \u0627\u0644\u0645\u0648\u0627\u062f",
+    "parent": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+    "parentfield": "courses",
+    "parenttype": "Program",
+    "required": 0
+   }
+  ],
+  "department": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Program",
+  "hero_image": null,
+  "index_of_students_in_groups": 0,
+  "intro_video": null,
+  "is_featured": 0,
+  "is_published": 0,
+  "modified": "2022-05-21 15:52:46.120623",
+  "name": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program_abbreviation": "9",
+  "program_name": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
+  "stage": "\u0627\u0633\u0627\u0633\u064a",
+  "students_out_of_groups": 35,
+  "total_number_of_students": 35
+ }
+]

@@ -1,7 +1,7 @@
 // Copyright (c) 2022, MadrasaTech TEAM and contributors
 // For license information, please see license.txt
 
-frappe.ui.form.on('Passing tool', {
+frappe.ui.form.on('Passing Tool', {
 	setup: function(frm) {
 		frm.add_fetch("student", "title", "student_name");
 	},
@@ -14,13 +14,6 @@ frappe.ui.form.on('Passing tool', {
 			frappe.show_progress(__("Enrolling students"), data.progress[0], data.progress[1]);
 		});
 	},
-
-	// get_students_from: function(frm) {
-	// 	if (frm.doc.get_students_from == "Student Applicant") {
-	// 		frm.dashboard.add_comment(__('Only the Student Applicant with the status "Approved" will be selected in the table below.'));
-	// 	}
-	// },
-
 	"get_students": function(frm) {
 		frm.set_value("students",[]);
 		frappe.call({
@@ -32,6 +25,7 @@ frappe.ui.form.on('Passing tool', {
 					frm.set_value("students", r.message[0]);
 					frm.set_value("new_student_batch", r.message[1]);
 					frm.set_value("new_program", r.message[2]);
+					frm.set_value("new_academic_year", r.message[3]);
 				}
 			}
 		});

@@ -1,0 +1,80 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Student Applicant",
+  "enabled": 1,
+  "modified": "2022-05-15 12:01:19.141800",
+  "name": "Student Applicant-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on(\"Student Applicant\", {\n\tsetup: function(frm) {\n\t\tfrm.set_query(\"program\", function() {\n\t\t    if(frm.doc.stage){\n\t\t        return {\n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.stage]\n\t\t\t\t    ]\n\t\t\t    }\n\t\t    }\n\t\t\t\n\t\t});\n\t}\n});\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Program Enrollment",
+  "enabled": 1,
+  "modified": "2022-05-14 21:38:07.227691",
+  "name": "Program Enrollment-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Program Enrollment', {\n\trefresh(frm) {\n\t    \n\t\tfrm.fields_dict['fees'].grid.get_field('fee_structure').get_query = function (doc, cdt, cdn) {\n\t\t\tvar d = locals[cdt][cdn];\n\t\t\treturn {\n\t\t\t\tfilters: { 'program': frm.doc.program, 'academic_year': frm.doc.academic_year, 'academic_term': frm.doc.academic_term }\n\t\t\t}\n\t\t};\n\n\t\tfrm.set_query(\"program\", function () {\n\t\t\treturn {\n\t\t\t\tfilters: [\n\t\t\t\t\t[\"Program\", \"stage\", \"=\", frm.doc.student_batch_name]\n\t\t\t\t]\n\n\t\t\t}\n\n\t\t});\n\n\t}\n});\n\nfrappe.ui.form.on('Program Enrollment', {\n\ton_submit(frm) {\n\t\tfrappe.call({\n\t\t\tmethod: 'madrasatech.madrasatech.doctype.student_enrollment.get_number_of_students_in_program',\n\t\t\targs: {\n\t\t\t\t'program': frm.doc.program\n\t\t\t},\n\t\t\tcallback: function (r) {\n\n\t\t\t}\n\n\t\t});\n\t}\n});\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Fees",
+  "enabled": 1,
+  "modified": "2022-05-14 11:56:21.574824",
+  "name": "Fees-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Fees', {\n\trefresh(frm) {\n\t\tfrm.set_query(\"fee_structure\", function() {\n\t\t\treturn{\n\t\t\t\t\"filters\":{\n\t\t\t\t\t'program': frm.doc.program,\n\t\t\t\t\t'academic_year': frm.doc.academic_year\n\t\t\t\t}\n\t\t\t};\n\t\t});\n\t}\n})\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Student Group",
+  "enabled": 1,
+  "modified": "2022-05-19 11:03:45.537010",
+  "name": "Student Group-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Student Group', {\n\tbefore_load:function(frm) {\n\t    frm.set_df_property('group_based_on','reqd',0);\n\t    frm.set_df_property('student_group_name','reqd',0);\n\t\tfrm.set_df_property(\"group_based_on\",\"hidden\",1);\n\t},\n\tbefore_save:function(frm) {\n\t    frm.set_value('student_group_name', String(frm.doc.program) + \" (\" + String(frm.doc.group_category) + \") - \" + String(frm.doc.academic_year));\n\t},\n\tvalidate:function(frm) {\n    \tfrappe.call({\n\t\t\t\tmethod: 'madrasatech.madrasatech.doctype.student_group.update_number_of_students_in_program',\n\t\t\t\targs: {\n\t\t\t\t    'program':frm.doc.program,\n\t\t\t\t   \t'index_of_students_in_groups':frm.doc.index_of_students_in_groups,\n\t\t\t\t   \t'students_out_of_groups':frm.doc.students_out_of_groups\n\t\t\t\t},\n\t\t\t\tcallback: function(r) {\n\n\t\t\t\t}\n    \t});\n\t},\n\tget_students_2: function(frm) {\n\t\tif (frm.doc.group_based_on == 'Batch' || frm.doc.group_based_on == 'Course') {\n\t\t\tvar student_list = [];\n\t\t\tvar max_roll_no = 0;\n\t\t\t$.each(frm.doc.students, function(_i,d) {\n\t\t\t\tstudent_list.push(d.student);\n\t\t\t\tif (d.group_roll_number>max_roll_no) {\n\t\t\t\t\tmax_roll_no = d.group_roll_number;\n\t\t\t\t}\n\t\t\t});\n\n\t\t\tif (frm.doc.academic_year) {\n\t\t\t\tfrappe.call({\n\t\t\t\t\tmethod: 'madrasatech.madrasatech.doctype.student_group.get_students_2',\n\t\t\t\t\targs: {\n\t\t\t\t\t   \t'first_student_number':frm.doc.index_of_students_in_groups,\n\t\t\t\t\t\t'second_student_number':frm.doc.max_strength,\n\t\t\t\t\t\t'academic_year': frm.doc.academic_year,\n\t\t\t\t\t\t'academic_term': frm.doc.academic_term,\n\t\t\t\t\t\t'group_based_on': frm.doc.group_based_on,\n\t\t\t\t\t\t'program': frm.doc.program,\n\t\t\t\t\t\t'batch' : frm.doc.batch,\n\t\t\t\t\t\t'student_category' : frm.doc.student_category,\n\t\t\t\t\t\t'course': frm.doc.course,\n\t\t\t\t\t},\n\t\t\t\t\tcallback: function(r) {\n\t\t\t\t\t\tif (r.message) {\n\t\t\t\t\t\t\t$.each(r.message, function(i, d) {\n\t\t\t\t\t\t\t\tif(!in_list(student_list, d.student)) {\n\t\t\t\t\t\t\t\t\tvar s = frm.add_child('students');\n\t\t\t\t\t\t\t\t\ts.student = d.student;\n\t\t\t\t\t\t\t\t\ts.student_name = d.student_name;\n\t\t\t\t\t\t\t\t\tif (d.active === 0) {\n\t\t\t\t\t\t\t\t\t\ts.active = 0;\n\t\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t\t\ts.group_roll_number = ++max_roll_no;\n\t\t\t\t\t\t\t    \tfrm.set_value('index_of_students_in_groups', parseInt(frm.doc.index_of_students_in_groups) + 1);\n\t                            \tfrm.set_value('students_out_of_groups', parseInt(frm.doc.total_number_of_students) - parseInt(frm.doc.index_of_students_in_groups));\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t\t\t});\n\t\t\t\t\t\t\trefresh_field('students');\n                    \t   \tfrm.save();\n\t\t\t\t\t\t} else {\n\t\t\t\t\t\t\tfrappe.msgprint(__('Student Group is already updated.'))\n\t\t\t\t\t\t}\n\t\t\t\t\t}\n\t\t\t\t})\n\t\t\t}\n\t\t} else {\n\t\t\tfrappe.msgprint(__('Select students manually for the Activity based Group'));\n\t\t}\n\t},\n\trefresh:function(frm) {\n\t   \tfrm.set_query(\"program\", function() {\n\t\t        return {\n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.stage]\n\t\t\t\t    ]\n\t\t\t    }\n\t\t});\n\t\t\n\t\tfrm.set_query(\"classroom\", function() {\n\t\t        return {\n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Room\",\"grade\", \"=\", frm.doc.program]\n\t\t\t\t    ]\n\t\t\t    }\n\t\t});\n\t\t\n\t\tfrm.set_df_property(\"get_students\",\"hidden\",1);\n\t\tfrm.set_df_property(\"get_students_2\",\"hidden\",0);\n\t}\n});\n\nfrappe.ui.form.on('Student Group Student', {\n    students_add: function(frm) {\n\t\tif(frm.doc.students_out_of_groups > 0 && frm.doc.index_of_students_in_groups < frm.doc.max_strength) {\n\t    \tfrm.set_value('index_of_students_in_groups', parseInt(frm.doc.index_of_students_in_groups) + 1);\n\t    \tfrm.set_value('students_out_of_groups', parseInt(frm.doc.total_number_of_students) - parseInt(frm.doc.index_of_students_in_groups));\n\t\t} else {\n            msgprint(\"You are not allowed to add new students.\");\n\t\t}\n    }\n});\n\nfrappe.ui.form.on('Student Group Student', {\n    students_remove: function(frm, cdt, cdn) {\n\t\tif(cdn !== \"new-student-group-student-1\"){\n\t    \tfrm.set_value('index_of_students_in_groups', parseInt(frm.doc.index_of_students_in_groups) - 1);\n\t        frm.set_value('students_out_of_groups', parseInt(frm.doc.total_number_of_students) - parseInt(frm.doc.index_of_students_in_groups));\n\t\t}\n    }\n});\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Room",
+  "enabled": 1,
+  "modified": "2022-05-15 17:24:46.279126",
+  "name": "Room-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Room', {\n\trefresh:function(frm) {\n\t   \tfrm.set_query(\"grade\", function() {\n\t\t        return {\n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.stage]\n\t\t\t\t    ]\n\t\t\t    }\n\t\t});\n\t}\n})\n",
+  "view": "Form"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Passing Tool",
+  "enabled": 1,
+  "modified": "2022-05-19 18:30:50.139048",
+  "name": "Passing Tool-Form",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "script": "frappe.ui.form.on('Passing Tool', {\n\trefresh(frm) {\n\t    \t    frm.set_query(\"program\", function() {\n\t\t        return {\n\t\t\t\t    filters: [\n\t\t\t\t    \t[\"Program\",\"stage\", \"=\", frm.doc.student_batch]\n\t\t\t\t    ]\n\t\t\t    }\n\t\t});\n\t}\n})",
+  "view": "Form"
+ }
+]

@@ -1,0 +1,57 @@
+{
+ "cards_label": "Reports & Masters",
+ "category": "Domains",
+ "charts": [
+  {
+   "chart_name": "Program Enrollments",
+   "label": "Program Enrollments"
+  }
+ ],
+ "charts_label": "Statistics",
+ "creation": "2022-05-21 12:12:43.028866",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends": "Teacher",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Students officer",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Plan Program",
+   "link_to": "Assessment Plan Program",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-05-21 12:25:32.373456",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "Students officer",
+ "onboarding": "",
+ "owner": "Administrator",
+ "pin_to_bottom": 1,
+ "pin_to_top": 0,
+ "restrict_to_domain": "",
+ "shortcuts": [
+  {
+   "doc_view": "",
+   "label": "Student",
+   "link_to": "Student",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "Dashboard",
+   "label": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+   "link_to": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+   "type": "Report"
+  }
+ ]
+}

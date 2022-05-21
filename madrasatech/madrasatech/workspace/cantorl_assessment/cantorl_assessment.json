@@ -117,8 +117,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Pass Students",
-   "link_to": "Pass Students",
+   "label": "Passing Tool",
+   "link_to": "Passing tool",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -133,7 +133,7 @@
    "type": "Link"
   }
  ],
- "modified": "2022-05-21 01:56:37.482417",
+ "modified": "2022-05-19 18:28:48.376435",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Cantorl Assessment",
