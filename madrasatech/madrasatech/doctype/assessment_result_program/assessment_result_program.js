@@ -80,26 +80,25 @@ frappe.ui.form.on('Assessment Result Program', {
 				},
 				callback: function(r) {
 					if (r.message) {
-						// console.log("True 1 -> ");
 						frappe.model.clear_table(frm.doc, 'details');
 						$.each(r.message, function(i, d) {
-							// console.log("True 2 loop -> ");
 							var row = frm.add_child('details');
 							row.assessment_criteria = d.assessment_criteria;
 							row.maximum_score = d.maximum_score;
-							//-------
+							
 							frappe.call({
 								method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
 								args: {
 									"student":frm.doc.student,
+									'academic_term': frm.doc.academic_term,
 									"assessment_criteria_program":d.assessment_criteria,
 									"assessment_group":frm.doc.assessment_group,
 									'type_test':frm.doc.type_test,
+
 								},
 								callback: function(r) {
-									// console.log("result ->",r.message);
 									if (r.message) {
-											row.score = (r.message[0].total_score)|round|int;
+											row.score = (r.message[0].total_score);
 										}
 									
 									else
@@ -133,27 +132,30 @@ frappe.ui.form.on('Assessment Result Program', {
 			if (e.score != 0)
 				scores.push(e.score);
 			else
-				frm.trigger('student');
-			// frappe.call({
-			// 	method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
-			// 	args: {
-			// 		"student":frm.doc.student,
-			// 		"assessment_criteria_program":e.assessment_criteria,
-			// 		'type_test':frm.doc.type_test,
-			// 	},
-			// 	callback: function(r) {
-			// 		// console.log("result ->",r.message);
-			// 		if (r.message) {
-			// 		    	scores.push(r.message[0].total_score);
-			// 				console.log(r.message[0].total_score);
-			// 			}
-					
-			// 		else
-			// 			scores.push(0)
+				// frm.trigger('student');
+				frappe.call({
+					method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
+					args: {
+						"student":frm.doc.student,
+						'academic_year': frm.doc.academic_year,
+						'academic_term':frm.doc.academic_term,
+						'type_test':frm.doc.type_test,
+						'assessment_criteria_program':e.assessment_criteria,
+						"assessment_group":frm.doc.assessment_group
+	
+					},
+					callback: function(r) {
+						if (r.message) {
+								scores.push(r.message[0].total_score);
+								console.log(r.message[0].total_score);
+							}
 						
-			// 		frm.refresh_field('details');
-			// 	}
-			// });
+						else
+							scores.push(0)
+							
+						frm.refresh_field('details');
+					}
+				});
 			
 		});
 

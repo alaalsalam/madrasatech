@@ -72,15 +72,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Student Assessment",
-   "link_to": "Student Assessment",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Assessment Student Detail",
    "link_to": "Assessment Student Detail",
    "link_type": "DocType",
@@ -99,38 +90,11 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Assessment Student",
-   "link_to": "Assessment Student",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "test result",
-   "link_to": "test result",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Type Test",
    "link_to": "Type Test",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "cade",
-   "link_to": "test result",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
   },
   {
    "hidden": 0,
@@ -158,9 +122,18 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Result Term",
+   "link_to": "Assessment Result Term",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2022-05-18 10:50:13.822949",
+ "modified": "2022-05-21 01:56:37.482417",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Cantorl Assessment",
