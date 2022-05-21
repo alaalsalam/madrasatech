@@ -7,9 +7,10 @@ from frappe.utils import cint
 from frappe import _
 import frappe
 from frappe.model.document import Document
+import datetime as dt
 
 
-class Passingtool(Document):
+class PassingTool(Document):
     @frappe.whitelist()
     def get_students(self):
         students = []
@@ -23,7 +24,7 @@ class Passingtool(Document):
 
             condition = "and student_batch_name=%(student_batch)s"
             students = frappe.db.sql(
-                """select student, student_name, student_batch_name, student_category from `tabProgram Enrollment`
+                """select student, student_name, student_batch_name, "ناجح" as status from `tabProgram Enrollment`
 					where program=%(program)s and academic_year=%(academic_year)s {0} and docstatus != 2""".format(
                     condition
                 ),
@@ -48,7 +49,8 @@ class Passingtool(Document):
         if students:
             program_abbreviation = frappe.db.get_value('Program', self.program, 'program_abbreviation')
             program_name, stage = frappe.db.get_value('Program', {'program_abbreviation': int(program_abbreviation) + 1}, ['program_name', 'stage'])
-            return students, program_name, stage
+            year = frappe.db.get_value('Academic Year', {'year_start_date':  self.get_date()})
+            return students, stage, program_name, year, self.get_date()
         else:
             frappe.throw(_("No students Found"))
 
@@ -70,8 +72,25 @@ class Passingtool(Document):
                     prog_enrollment = frappe.new_doc("Program Enrollment")
                     prog_enrollment.student = stud.student
                     prog_enrollment.student_name = stud.student_name
-                    prog_enrollment.program = self.new_program
+                    if stud.status == "ناجح":
+                        prog_enrollment.program = self.new_program
+                        prog_enrollment.student_batch_name = self.new_student_batch
+                        prog_enrollment.student_category = "ناجح"
+                    else:
+                        prog_enrollment.program = self.program
+                        prog_enrollment.student_batch_name = self.student_batch
+                        prog_enrollment.student_category = "راسب"
+
                     prog_enrollment.academic_year = self.new_academic_year
-                    prog_enrollment.student_batch_name = stud.new_student_batch
+
+                    if self.get_date().year >= dt.date.today().year:
+                        prog_enrollment.enrollment_date = self.get_date()
+                    else:
+                        prog_enrollment.enrollment_date = dt.date.today()
                     prog_enrollment.save()
             frappe.msgprint(_("{0} Students have been enrolled").format(total))
+
+    def get_date(self):
+        year_start_date = frappe.db.get_value('Academic Year', {'academic_year_name':self.academic_year}, 'year_start_date')
+        year_start_date = year_start_date.replace(year = year_start_date.year + 1)
+        return year_start_date

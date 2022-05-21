@@ -16690,8 +16690,8 @@
     "hidden": 0,
     "icon": null,
     "is_query_report": 0,
-    "label": "Pass Students",
-    "link_to": "Pass Students",
+    "label": "Passing Tool",
+    "link_to": "Passing Tool",
     "link_type": "DocType",
     "onboard": 0,
     "only_for": null,
@@ -16701,7 +16701,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2022-05-18 10:50:13.822949",
+  "modified": "2022-05-19 18:28:48.376435",
   "module": "madrasatech",
   "name": "Cantorl Assessment",
   "onboarding": null,
@@ -16712,6 +16712,188 @@
   "pin_to_top": 0,
   "restrict_to_domain": null,
   "shortcuts": [],
+  "shortcuts_label": null
+ },
+ {
+  "cards_label": "Reports & Masters",
+  "category": "Domains",
+  "charts": [
+   {
+    "chart_name": "Program Enrollments",
+    "label": "Program Enrollments",
+    "parent": "Teacher",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "charts_label": "Statistics",
+  "developer_mode_only": 0,
+  "disable_user_customization": 0,
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "extends": "",
+  "extends_another_page": 0,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": null,
+  "is_default": 0,
+  "is_standard": 1,
+  "label": "Teacher",
+  "links": [
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Assessment Plan Program",
+    "link_to": "Assessment Plan Program",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Teacher",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   }
+  ],
+  "modified": "2022-05-21 12:21:06.929459",
+  "module": "madrasatech",
+  "name": "Teacher",
+  "onboarding": "",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "pin_to_bottom": 1,
+  "pin_to_top": 0,
+  "restrict_to_domain": null,
+  "shortcuts": [
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "label": "Student",
+    "link_to": "Student",
+    "parent": "Teacher",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType"
+   },
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "label": "\u0643\u0634\u0641 \u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0627\u0644\u063a\u064a\u0627\u0628",
+    "link_to": "\u0643\u0634\u0641 \u0627\u0644\u062d\u0636\u0648\u0631 \u0648\u0627\u0644\u063a\u064a\u0627\u0628",
+    "parent": "Teacher",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Report"
+   },
+   {
+    "color": null,
+    "doc_view": "Dashboard",
+    "format": null,
+    "icon": null,
+    "label": "\u0627\u062d\u0635\u0627\u0626\u064a\u0627\u062a \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+    "link_to": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+    "parent": "Teacher",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Report"
+   }
+  ],
+  "shortcuts_label": "\u0643\u0634\u0648\u0641\u0627\u062a"
+ },
+ {
+  "cards_label": "Reports & Masters",
+  "category": "Domains",
+  "charts": [
+   {
+    "chart_name": "Program Enrollments",
+    "label": "Program Enrollments",
+    "parent": "Students officer",
+    "parentfield": "charts",
+    "parenttype": "Workspace"
+   }
+  ],
+  "charts_label": "Statistics",
+  "developer_mode_only": 0,
+  "disable_user_customization": 0,
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "extends": "Teacher",
+  "extends_another_page": 0,
+  "for_user": null,
+  "hide_custom": 0,
+  "icon": null,
+  "is_default": 0,
+  "is_standard": 1,
+  "label": "Students officer",
+  "links": [
+   {
+    "dependencies": null,
+    "hidden": 0,
+    "icon": null,
+    "is_query_report": 0,
+    "label": "Assessment Plan Program",
+    "link_to": "Assessment Plan Program",
+    "link_type": "DocType",
+    "onboard": 0,
+    "only_for": null,
+    "parent": "Students officer",
+    "parentfield": "links",
+    "parenttype": "Workspace",
+    "type": "Link"
+   }
+  ],
+  "modified": "2022-05-21 12:25:32.373456",
+  "module": "madrasatech",
+  "name": "Students officer",
+  "onboarding": "",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "pin_to_bottom": 1,
+  "pin_to_top": 0,
+  "restrict_to_domain": "",
+  "shortcuts": [
+   {
+    "color": null,
+    "doc_view": "",
+    "format": null,
+    "icon": null,
+    "label": "Student",
+    "link_to": "Student",
+    "parent": "Students officer",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "DocType"
+   },
+   {
+    "color": null,
+    "doc_view": "Dashboard",
+    "format": null,
+    "icon": null,
+    "label": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+    "link_to": "\u0627\u062d\u0635\u0627\u0626\u064a\u0629 \u0639\u062f\u062f \u0627\u0644\u0637\u0644\u0627\u0628",
+    "parent": "Students officer",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "restrict_to_domain": null,
+    "stats_filter": null,
+    "type": "Report"
+   }
+  ],
   "shortcuts_label": null
  }
 ]

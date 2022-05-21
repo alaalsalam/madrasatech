@@ -180,7 +180,7 @@
   "intro_video": null,
   "is_featured": 0,
   "is_published": 0,
-  "modified": "2022-05-14 21:25:18.066121",
+  "modified": "2022-05-21 15:42:11.518834",
   "name": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
   "parent": null,
   "parentfield": null,
@@ -189,7 +189,7 @@
   "program_name": "\u062b\u0627\u0646\u064a - \u062b\u0627\u0646\u0648\u064a",
   "stage": "\u062b\u0627\u0646\u0648\u064a",
   "students_out_of_groups": 4,
-  "total_number_of_students": 0
+  "total_number_of_students": 4
  },
  {
   "allow_self_enroll": 0,
@@ -816,11 +816,11 @@
   "docstatus": 0,
   "doctype": "Program",
   "hero_image": null,
-  "index_of_students_in_groups": 2,
+  "index_of_students_in_groups": 0,
   "intro_video": null,
   "is_featured": 0,
   "is_published": 0,
-  "modified": "2022-05-19 14:49:07.102772",
+  "modified": "2022-05-20 17:20:40.599514",
   "name": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
   "parent": null,
   "parentfield": null,
@@ -828,7 +828,7 @@
   "program_abbreviation": "10",
   "program_name": "\u0627\u0648\u0644  - \u062b\u0627\u0646\u0648\u064a",
   "stage": "\u062b\u0627\u0646\u0648\u064a",
-  "students_out_of_groups": 0,
+  "students_out_of_groups": 2,
   "total_number_of_students": 2
  },
  {
@@ -992,11 +992,11 @@
   "docstatus": 0,
   "doctype": "Program",
   "hero_image": null,
-  "index_of_students_in_groups": 19,
+  "index_of_students_in_groups": 0,
   "intro_video": null,
   "is_featured": 0,
   "is_published": 0,
-  "modified": "2022-05-16 17:26:14.333371",
+  "modified": "2022-05-21 15:40:11.919741",
   "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
   "parent": null,
   "parentfield": null,
@@ -1004,7 +1004,7 @@
   "program_abbreviation": "1",
   "program_name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
   "stage": "\u0627\u0633\u0627\u0633\u064a",
-  "students_out_of_groups": 0,
+  "students_out_of_groups": 19,
   "total_number_of_students": 19
  },
  {
@@ -1088,11 +1088,11 @@
   "docstatus": 0,
   "doctype": "Program",
   "hero_image": null,
-  "index_of_students_in_groups": 37,
+  "index_of_students_in_groups": 0,
   "intro_video": null,
   "is_featured": 0,
   "is_published": 0,
-  "modified": "2022-05-16 17:36:24.397254",
+  "modified": "2022-05-21 15:52:46.120623",
   "name": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
   "parent": null,
   "parentfield": null,
@@ -1100,7 +1100,7 @@
   "program_abbreviation": "9",
   "program_name": "\u062a\u0627\u0633\u0639 - \u0627\u0633\u0627\u0633\u064a",
   "stage": "\u0627\u0633\u0627\u0633\u064a",
-  "students_out_of_groups": 0,
-  "total_number_of_students": 37
+  "students_out_of_groups": 35,
+  "total_number_of_students": 35
  }
 ]
