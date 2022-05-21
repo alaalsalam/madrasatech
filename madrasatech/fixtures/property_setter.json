@@ -1021,23 +1021,6 @@
  },
  {
   "default_value": null,
-  "doc_type": "Student Group",
-  "docstatus": 0,
-  "doctype": "Property Setter",
-  "doctype_or_field": "DocType",
-  "field_name": null,
-  "modified": "2022-05-15 13:54:53.537781",
-  "name": "Student Group-main-search_fields",
-  "parent": null,
-  "parentfield": null,
-  "parenttype": null,
-  "property": "search_fields",
-  "property_type": "Data",
-  "row_name": null,
-  "value": " batch,classroom,academic_year,student_group_name,program"
- },
- {
-  "default_value": null,
   "doc_type": "Room",
   "docstatus": 0,
   "doctype": "Property Setter",
@@ -1086,5 +1069,22 @@
   "property_type": "Check",
   "row_name": null,
   "value": "1"
+ },
+ {
+  "default_value": null,
+  "doc_type": "Student Group",
+  "docstatus": 0,
+  "doctype": "Property Setter",
+  "doctype_or_field": "DocType",
+  "field_name": null,
+  "modified": "2022-05-21 16:19:02.547724",
+  "name": "Student Group-main-search_fields",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "property": "search_fields",
+  "property_type": "Data",
+  "row_name": null,
+  "value": ""
  }
 ]
