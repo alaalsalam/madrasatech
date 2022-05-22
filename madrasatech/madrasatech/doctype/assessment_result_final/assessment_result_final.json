@@ -1,8 +1,8 @@
 {
  "actions": [],
  "allow_import": 1,
- "autoname": "EDU-RSC-.YYYY.-.#####",
- "creation": "2022-05-04 16:36:56.929357",
+ "autoname": "EDU-RSF-.YYYY.-.#####",
+ "creation": "2022-05-21 22:21:14.099603",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -36,7 +36,7 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Assessment Plan Program",
-   "options": "Assessment Plan Program",
+   "options": "Assessment Plan Final",
    "reqd": 1
   },
   {
@@ -53,6 +53,16 @@
    "fieldtype": "Link",
    "label": "Course",
    "options": "Course"
+  },
+  {
+   "fetch_from": "assessment_plan.type_test",
+   "fieldname": "type_test",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type Test",
+   "options": "Type Test",
+   "read_only": 1
   },
   {
    "fetch_from": "assessment_plan.academic_year",
@@ -100,7 +110,6 @@
    "fetch_from": "assessment_plan.assessment_group",
    "fieldname": "assessment_group",
    "fieldtype": "Link",
-   "in_standard_filter": 1,
    "label": "Assessment Group",
    "options": "Assessment Group"
   },
@@ -121,7 +130,7 @@
    "fieldname": "details",
    "fieldtype": "Table",
    "label": "Details",
-   "options": "Assessment Result Detail Program"
+   "options": "Assessment Result Detail Final"
   },
   {
    "fieldname": "section_break_8",
@@ -173,22 +182,21 @@
    "read_only": 1
   },
   {
-   "fetch_from": "assessment_plan.type_test",
-   "fieldname": "type_test",
+   "fieldname": "amended_from",
    "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Type Test",
-   "options": "Type Test",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Assessment Result",
+   "print_hide": 1,
    "read_only": 1
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2022-05-22 00:10:32.499952",
+ "modified": "2022-05-21 22:53:02.593324",
  "modified_by": "Administrator",
  "module": "madrasatech",
- "name": "Assessment Result Program",
+ "name": "Assessment Result Final",
  "owner": "Administrator",
  "permissions": [
   {

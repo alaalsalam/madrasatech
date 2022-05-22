@@ -2,6 +2,7 @@
 # For license information, please see license.txt
 
 
+from itertools import count
 import json
 
 import frappe
@@ -749,3 +750,85 @@ def mark_assessment_result_program_all_course(assessment_plan, scores):
 # frappe.msgprint(_('	Ala 1 True -_- '))
 # frappe.msgprint(_('	Ala 2 True -_- '))
 # frappe.msgprint(_('	Ala 3 True -_- '))
+
+
+
+@frappe.whitelist()
+def get_final_result(student, assessment_criteria_program,academic_year):
+    """Returns Submitted Result of given student for specified Assessment Plan
+
+    :param Student: Student
+    
+    """
+    term =[]
+    term_year = frappe.get_list("Academic Term", filters={"academic_year":academic_year})
+    for term_ in term_year:
+        term_doc=frappe.get_doc("Academic Term", term_.name)
+        term.append(term_doc)
+    
+    type_test =[]
+    type_list = frappe.get_list("Type Test")
+    for type in type_list:
+        type_doc=frappe.get_doc("Type Test", type.name)
+        type_test.append(type_doc)
+    
+    # Middle_list_result = frappe.get_list("Assessment Result",
+    #  filters={
+    #      "student_name":student,
+    #      "assessment_group":"شهر الاول",
+    #      "type_test":"اختبار نهائي",
+    #      "academic_term":term[0]
+
+    #      })
+
+    middle_list_result = []
+    final_list_result = []
+    outcome1_list_result = []
+    outcome2_list_result = []
+    outcome2 = 0
+    outcome1 = 0
+    
+    assessment_result_doc_array = []
+    results = frappe.get_all(
+        "Assessment Result",
+        filters={"student": student,
+                # 'academic_term': academic_term,
+                 "course": assessment_criteria_program
+                #  "type_test": type_test,
+                #  "assessment_group":assessment_group,       
+                 }
+    )
+    if len(results) > 0:
+        for a in results:
+            doc = frappe.get_doc("Assessment Result", a)
+            if doc.academic_term == term[1].name:  #  first term
+                if doc.type_test == type_test[1].name: # final result - type نهايه الفصل
+                    middle_list_result.append(doc)
+
+                else :
+                    outcome1_list_result.append(doc.total_score)
+
+            if doc.academic_term == term[0].name:  #  Scand term
+                if doc.type_test == type_test[1].name: # final result - type نهايه الفصل
+                    final_list_result.append(doc)
+
+                else :
+                    outcome2_list_result.append(doc.total_score)
+        
+        if (outcome1_list_result):
+            outcome1 = round((sum(outcome1_list_result)/len(outcome1_list_result))/5)
+       
+        if  outcome2_list_result:
+            outcome2 = round((sum(outcome2_list_result)/len(outcome2_list_result))/5)
+        # frappe.msgprint(_(assessment_result_doc_array))
+
+        # outcome1_list_result.sum 
+        # for i in outcome1_list_result:
+        #     outcome1.append(sum(i.total_score))   
+
+
+        return middle_list_result,outcome1,final_list_result,outcome2
+
+    else:
+        # frappe.msgprint(_('	Ala False get_result_program_all_coures -_- '))
+        return 0

@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestAssessmentResultTerm(unittest.TestCase):
+class TestAssessmentPlanFinal(unittest.TestCase):
 	pass

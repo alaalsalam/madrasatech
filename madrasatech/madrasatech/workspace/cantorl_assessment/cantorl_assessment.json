@@ -117,8 +117,8 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Passing Tool",
-   "link_to": "Passing tool",
+   "label": "Pass Students",
+   "link_to": "Pass Students",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -126,14 +126,23 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Assessment Result Term",
-   "link_to": "Assessment Result Term",
+   "label": "Assessment Result Final",
+   "link_to": "Assessment Result Final",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Plan Final",
+   "link_to": "Assessment Plan Final",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2022-05-19 18:28:48.376435",
+ "modified": "2022-05-21 22:32:26.268185",
  "modified_by": "Administrator",
  "module": "madrasatech",
  "name": "Cantorl Assessment",
