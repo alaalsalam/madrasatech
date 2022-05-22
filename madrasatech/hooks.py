@@ -36,6 +36,7 @@ app_license = "MIT"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
+app_logo_url = "/assets/madrasatech/images/madrasatech_logo.png"
 website_context = {
     "favicon": "/assets/madrasatech/images/madrasatech_logo.png",
 	"splash_image": "/assets/madrasatech/images/madrasatech_logo.png"

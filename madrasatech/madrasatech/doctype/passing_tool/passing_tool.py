@@ -21,12 +21,12 @@ class PassingTool(Document):
         elif not self.academic_year:
             frappe.throw(_("Mandatory field - Academic Year"))
         else:
-
-            condition = "and student_batch_name=%(student_batch)s"
+            condition = "and pe.student_batch_name=%(student_batch)s"
+            condition2 = "and pe.student = arf.student"
             students = frappe.db.sql(
-                """select student, student_name, student_batch_name, "ناجح" as status from `tabProgram Enrollment`
-					where program=%(program)s and academic_year=%(academic_year)s {0} and docstatus != 2""".format(
-                    condition
+                """select pe.student, pe.student_name, pe.student_batch_name, arf.grade as status from `tabProgram Enrollment` pe, `tabAssessment Result Final` arf
+					where program=%(program)s and academic_year=%(academic_year)s {0} {1} and docstatus != 2""".format(
+                    condition, condition2
                 ),
                 self.as_dict(),
                 as_dict=1,
@@ -72,7 +72,7 @@ class PassingTool(Document):
                     prog_enrollment = frappe.new_doc("Program Enrollment")
                     prog_enrollment.student = stud.student
                     prog_enrollment.student_name = stud.student_name
-                    if stud.status == "ناجح":
+                    if stud.status != "راسب":
                         prog_enrollment.program = self.new_program
                         prog_enrollment.student_batch_name = self.new_student_batch
                         prog_enrollment.student_category = "ناجح"
