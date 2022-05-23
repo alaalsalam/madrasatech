@@ -6,7 +6,8 @@ frappe.ui.form.on('Assessment Plan Program', {
 		frm.set_query('assessment_group', function(doc, cdt, cdn) {
 			return{
 				filters: {
-					'is_group': 0
+					// 'is_group': 0,
+					// 'academic_term': frm.doc.academic_term
 				}
 			};
 		});

@@ -1,0 +1,292 @@
+[
+ {
+  "academic_term": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644)",
+  "academic_year": "2022- 2023",
+  "amended_from": null,
+  "assessment_criteria": [
+   {
+    "assessment_criteria": "\u0648\u0627\u062c\u0628\u0627\u062a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0645\u0648\u0627\u0638\u0628\u0647",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0634\u0641\u0647\u064a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u062a\u062d\u0631\u064a\u0631\u064a",
+    "maximum_score": 40.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   }
+  ],
+  "assessment_group": "\u0627\u063a\u0633\u0637\u0633",
+  "assessment_name": null,
+  "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+  "docstatus": 1,
+  "doctype": "Assessment Plan",
+  "examiner": "\u0639\u0645\u0631 \u0637\u0647",
+  "examiner_name": "\u0639\u0645\u0631 \u0637\u0647",
+  "from_time": "20:42:07",
+  "grading_scale": "\u0639\u0627\u0645",
+  "maximum_assessment_score": 100.0,
+  "modified": "2022-05-22 20:44:29.545209",
+  "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "room": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - (\u0641\u0631\u0639 \u0627\u0644\u0628\u0646\u064a\u0646 - \u062d\u062f\u0629)",
+  "schedule_date": "2022-05-22",
+  "student_group": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023",
+  "supervisor": null,
+  "supervisor_name": null,
+  "to_time": "20:42:08",
+  "type_test": "\u0634\u0647\u0631\u064a"
+ },
+ {
+  "academic_term": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644)",
+  "academic_year": "2022- 2023",
+  "amended_from": null,
+  "assessment_criteria": [
+   {
+    "assessment_criteria": "\u0648\u0627\u062c\u0628\u0627\u062a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0645\u0648\u0627\u0638\u0628\u0647",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0634\u0641\u0647\u064a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u062a\u062d\u0631\u064a\u0631\u064a",
+    "maximum_score": 40.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   }
+  ],
+  "assessment_group": "\u0627\u063a\u0633\u0637\u0633",
+  "assessment_name": null,
+  "course": "\u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629",
+  "docstatus": 0,
+  "doctype": "Assessment Plan",
+  "examiner": "\u0639\u0645\u0631 \u0637\u0647",
+  "examiner_name": "\u0639\u0645\u0631 \u0637\u0647",
+  "from_time": "20:42:56",
+  "grading_scale": "\u0639\u0627\u0645",
+  "maximum_assessment_score": 100.0,
+  "modified": "2022-05-22 20:44:00.212972",
+  "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u062a\u0631\u0628\u064a\u0629 \u0627\u0633\u0644\u0627\u0645\u064a\u0629 \\ \u0634\u0647\u0631\u064a \\ \u0627\u063a\u0633\u0637\u0633",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "room": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - (\u0641\u0631\u0639 \u0627\u0644\u0628\u0646\u064a\u0646 - \u062d\u062f\u0629)",
+  "schedule_date": "2022-05-22",
+  "student_group": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023",
+  "supervisor": null,
+  "supervisor_name": null,
+  "to_time": "20:42:58",
+  "type_test": "\u0634\u0647\u0631\u064a"
+ },
+ {
+  "academic_term": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u062b\u0627\u0646\u064a)",
+  "academic_year": "2022- 2023",
+  "amended_from": null,
+  "assessment_criteria": [
+   {
+    "assessment_criteria": "\u0648\u0627\u062c\u0628\u0627\u062a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0645\u0627\u0631\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0645\u0648\u0627\u0638\u0628\u0647",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0645\u0627\u0631\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0634\u0641\u0647\u064a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0645\u0627\u0631\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u062a\u062d\u0631\u064a\u0631\u064a",
+    "maximum_score": 40.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0645\u0627\u0631\u0633",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   }
+  ],
+  "assessment_group": "\u0645\u0627\u0631\u0633",
+  "assessment_name": null,
+  "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+  "docstatus": 1,
+  "doctype": "Assessment Plan",
+  "examiner": "\u0639\u0645\u0631 \u0637\u0647",
+  "examiner_name": "\u0639\u0645\u0631 \u0637\u0647",
+  "from_time": "20:44:38",
+  "grading_scale": "\u0639\u0627\u0645",
+  "maximum_assessment_score": 100.0,
+  "modified": "2022-05-22 20:44:52.965359",
+  "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0645\u0627\u0631\u0633",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "room": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - (\u0641\u0631\u0639 \u0627\u0644\u0628\u0646\u064a\u0646 - \u062d\u062f\u0629)",
+  "schedule_date": "2022-05-22",
+  "student_group": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023",
+  "supervisor": null,
+  "supervisor_name": null,
+  "to_time": "20:44:39",
+  "type_test": "\u0634\u0647\u0631\u064a"
+ },
+ {
+  "academic_term": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u062b\u0627\u0646\u064a)",
+  "academic_year": "2022- 2023",
+  "amended_from": null,
+  "assessment_criteria": [
+   {
+    "assessment_criteria": "\u0648\u0627\u062c\u0628\u0627\u062a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0646\u0648\u0641\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0645\u0648\u0627\u0638\u0628\u0647",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0646\u0648\u0641\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0634\u0641\u0647\u064a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0646\u0648\u0641\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u062a\u062d\u0631\u064a\u0631\u064a",
+    "maximum_score": 40.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0646\u0648\u0641\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   }
+  ],
+  "assessment_group": "\u0646\u0648\u0641\u0645\u0628\u0631",
+  "assessment_name": null,
+  "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+  "docstatus": 1,
+  "doctype": "Assessment Plan",
+  "examiner": "\u0639\u0645\u0631 \u0637\u0647",
+  "examiner_name": "\u0639\u0645\u0631 \u0637\u0647",
+  "from_time": "20:45:13",
+  "grading_scale": "\u0639\u0627\u0645",
+  "maximum_assessment_score": 100.0,
+  "modified": "2022-05-22 20:45:20.312310",
+  "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u0646\u0648\u0641\u0645\u0628\u0631",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "room": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - (\u0641\u0631\u0639 \u0627\u0644\u0628\u0646\u064a\u0646 - \u062d\u062f\u0629)",
+  "schedule_date": "2022-05-22",
+  "student_group": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023",
+  "supervisor": null,
+  "supervisor_name": null,
+  "to_time": "20:45:16",
+  "type_test": "\u0634\u0647\u0631\u064a"
+ },
+ {
+  "academic_term": "2022- 2023 (\u0627\u0644\u062a\u0631\u0645 \u0627\u0644\u0627\u0648\u0644)",
+  "academic_year": "2022- 2023",
+  "amended_from": null,
+  "assessment_criteria": [
+   {
+    "assessment_criteria": "\u0648\u0627\u062c\u0628\u0627\u062a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u062f\u064a\u0633\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0645\u0648\u0627\u0638\u0628\u0647",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u062f\u064a\u0633\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u0634\u0641\u0647\u064a",
+    "maximum_score": 20.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u062f\u064a\u0633\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   },
+   {
+    "assessment_criteria": "\u062a\u062d\u0631\u064a\u0631\u064a",
+    "maximum_score": 40.0,
+    "parent": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u062f\u064a\u0633\u0645\u0628\u0631",
+    "parentfield": "assessment_criteria",
+    "parenttype": "Assessment Plan"
+   }
+  ],
+  "assessment_group": "\u062f\u064a\u0633\u0645\u0628\u0631",
+  "assessment_name": null,
+  "course": "\u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645",
+  "docstatus": 1,
+  "doctype": "Assessment Plan",
+  "examiner": "\u0639\u0645\u0631 \u0637\u0647",
+  "examiner_name": "\u0639\u0645\u0631 \u0637\u0647",
+  "from_time": "20:47:12",
+  "grading_scale": "\u0639\u0627\u0645",
+  "maximum_assessment_score": 100.0,
+  "modified": "2022-05-22 20:47:18.641987",
+  "name": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023 \\ \u0642\u0631\u0627\u0646 \u0643\u0631\u064a\u0645 \\ \u0634\u0647\u0631\u064a \\ \u062f\u064a\u0633\u0645\u0628\u0631",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "program": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a",
+  "room": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - (\u0641\u0631\u0639 \u0627\u0644\u0628\u0646\u064a\u0646 - \u062d\u062f\u0629)",
+  "schedule_date": "2022-05-22",
+  "student_group": "\u0627\u0648\u0644 - \u0627\u0633\u0627\u0633\u064a (\u0623) - 2022- 2023",
+  "supervisor": null,
+  "supervisor_name": null,
+  "to_time": "20:47:13",
+  "type_test": "\u0634\u0647\u0631\u064a"
+ }
+]

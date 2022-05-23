@@ -65,7 +65,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 		criteria_list.forEach(function(c) {
 			max_total_score += c.maximum_score
 		});
-		var result_table = $(frappe.render_template('assessment_result_tool', {
+		var result_table = $(frappe.render_template('assessment_result_tool_program', {
 			frm: frm,
 			students: frm.doc.students,
 			criteria: criteria_list,
@@ -130,8 +130,7 @@ frappe.ui.form.on('Assessment Result Program Tool', {
 						let link_span = result_table.find(`span[data-student=${assessment_result.student}].total-result-link`);
 						$(link_span).css("display", "block");
 						console.log(assessment_result);
-						// $(link_span).find("a").attr("href", "/app/assessment-result/"+assessment_result.name);
-						$(link_span).find("a").attr("href", `/app/assessment-result-program/${assessment_result.name}`);
+						$(link_span).find("a").attr("href", "/app/assessment-result-program/"+assessment_result.name);
 					}
 				});
 			}

@@ -13,7 +13,8 @@ frappe.ui.form.on('Assessment Plan Final', {
 		frm.set_query('grading_scale', function(){
 			return {
 				filters: {
-					docstatus: 1
+					docstatus: 1,
+					'academic_year': frm.doc.academic_year
 				}
 			};
 		});

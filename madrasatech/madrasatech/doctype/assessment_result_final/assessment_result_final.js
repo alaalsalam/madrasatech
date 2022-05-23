@@ -40,9 +40,6 @@ frappe.ui.form.on('Assessment Result Final', {
 	},
 	student: function(frm) {
 		console.log("Hi Ala")
-			
-
-	
 		if (frm.doc.assessment_plan) {
 			frappe.call({
 				method: 'madrasatech.madrasatech.api.get_assessment_details_program_all_course',
@@ -70,27 +67,30 @@ frappe.ui.form.on('Assessment Result Final', {
 								
 								callback: function(r) {
 									console.log("-->",r.message)
+									
 									if (r.message) {
-										var sum = 0;
-										if(r.message[0][0]){
-											row.middle_score = (r.message[0][0].total_score);
-											sum += row.middle_score;
+										if (r.message[0]){
+											row.outcome1 = (r.message[0]);
 										}
-										if (r.message[1]){
-											row.outcome1 = (r.message[1]);
-											sum += row.outcome1;
+										if(r.message[1][0]){
+											row.middle_score = (r.message[1][0].total_score);
 										}
-										if(r.message[2][0]){
-											row.final_score = (r.message[2][0].total_score);
-											sum += row.final_score;
+										if (r.message[2]){
+											row.total_middle = (r.message[2]);
 										}
 										if (r.message[3]){
 											row.outcome2 = (r.message[3]);
-											sum += row.outcome2;
 										}
-
-										row.score = sum;
-										
+										if(r.message[4][0]){
+											row.final_score = (r.message[4][0].total_score);
+										}
+										if (r.message[5]){
+											row.total_final = (r.message[5]);
+										}
+										if (r.message[6]){
+											row.score = (r.message[6]);
+											
+										}										
 									}
 									else
 										row.score = "";
@@ -109,6 +109,7 @@ frappe.ui.form.on('Assessment Result Final', {
 		
 
 	},
+	
 
 
 });

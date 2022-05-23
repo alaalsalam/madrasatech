@@ -1,37 +1,6 @@
 // Copyright (c) 2022, MadrasaTech TEAM and contributors
 // For license information, please see license.txt
-// var course_array ;
-// function get_assessment_resulte_for_all_course(course_name , frm){
-// 	// console.log(frm.doc);
-	
-// 	frappe.call({
-// 		method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
-// 		args: {
-// 			"student":frm.doc.student,
-// 			"assessment_criteria_program":course_name,
-// 			'type_test':frm.doc.type_test,
-// 			"assessment_group":d.assessment_group
-// 		},
-// 		callback: function(r) {get_result_program_all_coures
-// 			// console.log("result ->",r.message)
-// 			if (r.message) {
-// 				var msg = r.message;
-// 				for( let i in msg){
-// 					// course_array.push(r.message[i].total_score)
-// 					console.log(typeof(msg[i].total_score));
-// 					course_array = msg[i].total_score;
 
-// 				}
-// 				// console.log("result 1->",course_array)
-// 				return 5;	
-// 				// frm.refresh_field('details');
-// 			}
-// 			else
-// 				return false;
-// 		}
-// 	});
-
-// }
 frappe.ui.form.on('Assessment Result Program', {
 	refresh: function(frm) {
 		if (!frm.doc.__islocal) {
@@ -132,56 +101,10 @@ frappe.ui.form.on('Assessment Result Program', {
 			if (e.score != 0)
 				scores.push(e.score);
 			else
-				// frm.trigger('student');
-				frappe.call({
-					method: 'madrasatech.madrasatech.api.get_result_program_all_coures',
-					args: {
-						"student":frm.doc.student,
-						'academic_year': frm.doc.academic_year,
-						'academic_term':frm.doc.academic_term,
-						'type_test':frm.doc.type_test,
-						'assessment_criteria_program':e.assessment_criteria,
-						"assessment_group":frm.doc.assessment_group
-	
-					},
-					callback: function(r) {
-						if (r.message) {
-								scores.push(r.message[0].total_score);
-								console.log(r.message[0].total_score);
-							}
-						
-						else
-							scores.push(0)
-							
-						frm.refresh_field('details');
-					}
-				});
+				frm.trigger('student');
+			
 			
 		});
-
-		// if (labels.length && maximum_scores.length && scores.length) {
-		// 	frm.dashboard.chart_area.empty().removeClass('hidden');
-		// 	new frappe.Chart('.form-graph', {
-		// 		title: 'Assessment Results',
-		// 		data: {
-		// 			labels: labels,
-		// 			datasets: [
-		// 				{
-		// 					name: 'Maximum Score',
-		// 					chartType: 'bar',
-		// 					values: maximum_scores,
-		// 				},
-		// 				{
-		// 					name: 'Score Obtained',
-		// 					chartType: 'bar',
-		// 					values: scores,
-		// 				}
-		// 			]
-		// 		},
-		// 		colors: ['red', 'red'],
-		// 		type: 'bar'
-		// 	});
-		// }
 	}
 });
 

@@ -2,6 +2,7 @@
 # For license information, please see license.txt
 
 
+from functools import total_ordering
 from itertools import count
 import json
 
@@ -665,7 +666,6 @@ def get_result_program_all_coures(student, assessment_criteria_program, type_tes
 
         return assessment_result_doc_array
     else:
-        # frappe.msgprint(_('	Ala False get_result_program_all_coures -_- '))
         return 0
 
 
@@ -683,46 +683,14 @@ def get_assessment_details_program_all_course(assessment_plan , ):
         filters={"parent": assessment_plan},
         order_by="idx",
     )
-    # if results:
-    # 	# frappe.msgprint(_('	Ala  -_- '))
-    # 	# print(results)
-    # 	# frappe.msgprint(_(results))
-    # 	return frappe.get_doc("Assessment Result Program", results[0])
-    # else:
-    # 	return None
+   
 
-@frappe.whitelist
-# @frappe.whitelist()
-# def get_student_assignment_plan(student_group):
-# 	"""Returns Submitted Result of given student for specified Assessment Plan
-
-# 	:param Student: Student
-# 	:param Assessment Plan: Assessment Plan
-# 	"""
-# 	results = frappe.get_all(
-# 		"Assessment Result",
-# 		filters={"student_group": student_group},
-# 	)
-# 	assessment_result_doc_array =[]
-# 	if results:
-# 		for a in results:
-# 			doc = frappe.get_doc("Assessment Result", a)
-# 			assessment_result_doc_array.append(doc.total_score)
-# 		return assessment_result_doc_array
-# 	else:
-# 		return None
-
-    # frappe.msgprint(_(student.student))
 
 
 @frappe.whitelist()
 def mark_assessment_result_program_all_course(assessment_plan, scores):
     student_score = json.loads(scores)
     assessment_details = []
-    # for criteria in student_score.get("assessment_details"):
-    # 	assessment_details.append(
-    # 		{"assessment_criteria": criteria, "score": flt(student_score["assessment_details"][criteria])}
-    # 	)
     assessment_result = get_assessment_result_doc_program(
         student_score["student"], assessment_plan)
     assessment_result.update(
@@ -787,8 +755,10 @@ def get_final_result(student, assessment_criteria_program,academic_year):
     outcome2_list_result = []
     outcome2 = 0
     outcome1 = 0
+    total_middle = 0
+    total_final = 0
+    total_score = 0
     
-    assessment_result_doc_array = []
     results = frappe.get_all(
         "Assessment Result",
         filters={"student": student,
@@ -804,31 +774,33 @@ def get_final_result(student, assessment_criteria_program,academic_year):
             if doc.academic_term == term[1].name:  #  first term
                 if doc.type_test == type_test[1].name: # final result - type نهايه الفصل
                     middle_list_result.append(doc)
+                    total_middle += doc.total_score
+                    total_score +=doc.total_score
 
                 else :
                     outcome1_list_result.append(doc.total_score)
 
-            if doc.academic_term == term[0].name:  #  Scand term
+            elif doc.academic_term == term[0].name:  #  Scand term
                 if doc.type_test == type_test[1].name: # final result - type نهايه الفصل
                     final_list_result.append(doc)
+                    total_final += doc.total_score
+                    total_score +=doc.total_score
 
                 else :
                     outcome2_list_result.append(doc.total_score)
         
         if (outcome1_list_result):
-            outcome1 = round((sum(outcome1_list_result)/len(outcome1_list_result))/5)
-       
+             outcome1 = round((sum(outcome1_list_result)/len(outcome1_list_result))/5)
+             total_middle += outcome1
+        
         if  outcome2_list_result:
             outcome2 = round((sum(outcome2_list_result)/len(outcome2_list_result))/5)
-        # frappe.msgprint(_(assessment_result_doc_array))
+            total_final += outcome2
+            
+        total_score += outcome1
+        total_score += outcome2
 
-        # outcome1_list_result.sum 
-        # for i in outcome1_list_result:
-        #     outcome1.append(sum(i.total_score))   
-
-
-        return middle_list_result,outcome1,final_list_result,outcome2
+        return outcome1,middle_list_result,total_middle,outcome2,final_list_result,total_final,total_score
 
     else:
-        # frappe.msgprint(_('	Ala False get_result_program_all_coures -_- '))
         return 0

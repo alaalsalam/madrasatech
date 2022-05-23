@@ -1,0 +1,54 @@
+[
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Type Test",
+  "maximum_score": 100,
+  "modified": "2022-05-17 12:45:11.310522",
+  "name": "\u0634\u0647\u0631\u064a",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "status": "1",
+  "type_test": "\u0634\u0647\u0631\u064a"
+ },
+ {
+  "description": "\u0645\u062d\u0635\u0644\u0629",
+  "docstatus": 0,
+  "doctype": "Type Test",
+  "maximum_score": 20,
+  "modified": "2022-05-19 08:12:17.477836",
+  "name": "\u0645\u062d\u0635\u0644\u0629",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "status": "2",
+  "type_test": "\u0645\u062d\u0635\u0644\u0629"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Type Test",
+  "maximum_score": 30,
+  "modified": "2022-05-19 13:10:41.514960",
+  "name": "\u0646\u0647\u0627\u064a\u0629 \u0627\u0644\u0641\u0635\u0644",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "status": "3",
+  "type_test": "\u0646\u0647\u0627\u064a\u0629 \u0627\u0644\u0641\u0635\u0644"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Type Test",
+  "maximum_score": 100,
+  "modified": "2022-05-21 22:44:42.804678",
+  "name": "\u0646\u0647\u0627\u064a\u0629 \u0627\u0644\u0633\u0646\u0629",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "status": "3",
+  "type_test": "\u0646\u0647\u0627\u064a\u0629 \u0627\u0644\u0633\u0646\u0629"
+ }
+]

@@ -206,6 +206,11 @@ fixtures = [
         # "Gender",
         # "Instructor",
         # "Workspace",
+        "Assessment Plan",
+        "Assessment Result",
+        "Assessment Criteria",
+        "Type Test",
+        "Assessment Criteria Program",
         
     {"dt": "Custom Field", "filters": [
         [
