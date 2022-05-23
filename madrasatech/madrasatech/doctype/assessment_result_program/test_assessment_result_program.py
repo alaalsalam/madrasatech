@@ -5,4 +5,9 @@
 import unittest
 
 class TestAssessmentResultProgram(unittest.TestCase):
-	pass
+	def test_grade(self):
+		grade = get_grade("_Test Grading Scale", 80)
+		self.assertEqual("جيد جدا", grade)
+
+		grade = get_grade("_Test Grading Scale", 70)
+		self.assertEqual("جيد", grade)

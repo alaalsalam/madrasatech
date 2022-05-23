@@ -19,8 +19,7 @@ It returns the number of students registered in a certain program
 def get_number_of_students_in_program(program):
 
     students_enrollment = frappe.get_list('Program Enrollment',
-                                          filters={"program": program,
-                                                   "academic_year": frappe.education.doctype.setting.academic_year})
+                                          filters={"program": program})
     number_of_students = len(students_enrollment)
     doc = frappe.get_doc('Program', program)
     doc.total_number_of_students = number_of_students

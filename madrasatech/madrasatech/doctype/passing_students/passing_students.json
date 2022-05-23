@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2022-05-23 12:31:18.654848",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student_batch",
+  "program",
+  "column_break_3",
+  "academic_year",
+  "section_break_5",
+  "get_students",
+  "students",
+  "section_break_7",
+  "new_student_batch",
+  "new_program",
+  "enroll_students",
+  "column_break_12",
+  "new_academic_year"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_batch",
+   "fieldtype": "Link",
+   "label": "Student Batch",
+   "options": "Student Batch Name",
+   "reqd": 1
+  },
+  {
+   "depends_on": "student_batch",
+   "fieldname": "program",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Program",
+   "options": "Program",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "academic_year",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Academic Year",
+   "options": "Academic Year",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "get_students",
+   "fieldtype": "Button",
+   "label": "Get Students"
+  },
+  {
+   "fieldname": "students",
+   "fieldtype": "Table",
+   "label": "Students",
+   "options": "Passing Tool Student"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break",
+   "label": "Enrollment Details"
+  },
+  {
+   "fieldname": "new_student_batch",
+   "fieldtype": "Link",
+   "label": "New Student Batch",
+   "options": "Student Batch Name",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "new_program",
+   "fieldtype": "Link",
+   "label": "New Program",
+   "options": "Program",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "enroll_students",
+   "fieldtype": "Button",
+   "label": "Enroll Students"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "new_academic_year",
+   "fieldtype": "Link",
+   "label": "New Academic Year",
+   "options": "Academic Year",
+   "read_only": 1,
+   "reqd": 1
+  }
+ ],
+ "hide_toolbar": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-05-23 12:48:24.198418",
+ "modified_by": "Administrator",
+ "module": "madrasatech",
+ "name": "Passing Students",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Education Manager",
+   "write": 1
+  }
+ ],
+ "restrict_to_domain": "Education",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

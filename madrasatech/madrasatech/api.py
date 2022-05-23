@@ -463,23 +463,6 @@ def get_current_enrollment(student, academic_year=None):
         return None
 
 
-@frappe.whitelist()
-# def get_assessment_courses_details(program,plan,assessment_plan="EDU-ASP-2022-00001"):
-# 	"""Returns Courses  and Maximum Score from Assessment Student Course .
-# 	:param Program : Program
-# 	"""
-# 	return frappe.get_all(
-# 		"Assessment Student Course",
-# 		fields=["course", "maximum_score", "docstatus"],
-# 		filters={"parent": plan},
-# 		order_by="idx",
-# 	)
-# return frappe.get_all(
-# 	"Assessment Plan Criteria",
-# 	fields=["assessment_criteria", "maximum_score", "docstatus"],
-# 	filters={"parent": assessment_plan},
-# 	order_by="idx",
-# )
 def get_assessment_courses_details(assessment_plan="EDU-ASP-2022-00001"):
     """Returns Assessment Criteria  and Maximum Score from Assessment Plan Master.
 
@@ -502,7 +485,6 @@ def get_assessment_details_program(assessment_plan):
     """
     return frappe.get_all(
 
-        # "Assessment Plan Criteria",
         "Assessment Plan Criteria Program",
         fields=["assessment_criteria", "maximum_score", "docstatus"],
         filters={"parent": assessment_plan},
@@ -638,7 +620,6 @@ def get_assessment_students_program_all_coures(assessment_plan, assessment_crite
                 _("False get_assessment_students_program_all_coures "))
             student.update({"assessment_details": None})
     return student_list
-    # return result
 
 
 @frappe.whitelist()
@@ -677,7 +658,6 @@ def get_assessment_details_program_all_course(assessment_plan , ):
     """
     return frappe.get_all(
 
-        # "Assessment Plan Criteria",
         "Assessment Plan Criteria Program",
         fields=["assessment_criteria", "maximum_score", "docstatus"],
         filters={"parent": assessment_plan},
@@ -715,14 +695,11 @@ def mark_assessment_result_program_all_course(assessment_plan, scores):
     }
     return assessment_result_dict
 
-# frappe.msgprint(_('	Ala 1 True -_- '))
-# frappe.msgprint(_('	Ala 2 True -_- '))
-# frappe.msgprint(_('	Ala 3 True -_- '))
 
 
 
 @frappe.whitelist()
-def get_final_result(student, assessment_criteria_program,academic_year):
+def get_final_result(student, assessment_criteria_program,academic_year): 
     """Returns Submitted Result of given student for specified Assessment Plan
 
     :param Student: Student
@@ -740,14 +717,7 @@ def get_final_result(student, assessment_criteria_program,academic_year):
         type_doc=frappe.get_doc("Type Test", type.name)
         type_test.append(type_doc)
     
-    # Middle_list_result = frappe.get_list("Assessment Result",
-    #  filters={
-    #      "student_name":student,
-    #      "assessment_group":"شهر الاول",
-    #      "type_test":"اختبار نهائي",
-    #      "academic_term":term[0]
-
-    #      })
+    
 
     middle_list_result = []
     final_list_result = []
@@ -762,10 +732,7 @@ def get_final_result(student, assessment_criteria_program,academic_year):
     results = frappe.get_all(
         "Assessment Result",
         filters={"student": student,
-                # 'academic_term': academic_term,
                  "course": assessment_criteria_program
-                #  "type_test": type_test,
-                #  "assessment_group":assessment_group,       
                  }
     )
     if len(results) > 0:

@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestAssessmentPlanProgram(unittest.TestCase):
+class TestPassingStudents(unittest.TestCase):
 	pass

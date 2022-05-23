@@ -10,7 +10,7 @@ from frappe.model.document import Document
 import datetime as dt
 
 
-class PassingTool(Document):
+class PassingStudents(Document):
     @frappe.whitelist()
     def get_students(self):
         students = []
@@ -66,7 +66,7 @@ class PassingTool(Document):
             total = len(self.students)
             for i, stud in enumerate(self.students):
                 frappe.publish_realtime(
-                    "passing_tool", dict(progress=[i + 1, total]), user=frappe.session.user
+                    "passing_students", dict(progress=[i + 1, total]), user=frappe.session.user
                 )
                 if stud.student:
                     prog_enrollment = frappe.new_doc("Program Enrollment")

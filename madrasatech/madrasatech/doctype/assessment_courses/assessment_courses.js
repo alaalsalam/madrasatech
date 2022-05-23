@@ -18,34 +18,7 @@ frappe.ui.form.on('Assessment Courses', {
 			};
 		});
 	},
-	// refresh: function(frm) {
-	// 	if (frm.doc.docstatus == 1) {
-	// 		frm.add_custom_button(__('Assessment Result Tool'), function() {
-	// 			frappe.route_options = {
-	// 				assessment_plan: frm.doc.name,
-	// 				student_group: frm.doc.student_group
-	// 			}
-	// 			frappe.set_route('Form', 'Assessment Result Tool');
-	// 		}, __('Tools'));
-	// 	}
 
-	// 	frm.set_query('course', function() {
-	// 		return {
-	// 			query: 'erpnext.education.doctype.program_enrollment.program_enrollment.get_program_courses',
-	// 			filters: {
-	// 				'program': frm.doc.program
-	// 			}
-	// 		};
-	// 	});
-
-	// 	frm.set_query('academic_term', function() {
-	// 		return {
-	// 			filters: {
-	// 				'academic_year': frm.doc.academic_year
-	// 			}
-	// 		};
-	// 	});
-	// },
 	maximum_assessment_score: function(frm) {
 		frm.trigger('course');
 	},
@@ -69,16 +42,7 @@ frappe.ui.form.on('Assessment Courses', {
 
 				}
 			});
-			// frappe.call({
-			// 	// method: 'get_courses',
-			// 	method: 'madrasatech.madrasatech.api.get_courses',
-			// 	doc:frm.doc,
-			// 	callback: function(r) {
-			// 		if (r.message) {
-			// 			frm.set_value('courses', r.message);
-			// 		}
-			// 	}
-			// })
+		
 
 		}
 	},
@@ -86,17 +50,4 @@ frappe.ui.form.on('Assessment Courses', {
 		frm.events.get_courses(frm);
 	
 	},
-	
-	// get_courses: function(frm) {
-	// 	frm.set_value('courses',[]);
-	// 	frappe.call({
-	// 		method: 'get_courses',
-	// 		doc:frm.doc,
-	// 		callback: function(r) {
-	// 			if (r.message) {
-	// 				frm.set_value('courses', r.message);
-	// 			}
-	// 		}
-	// 	})
-	// }
 });

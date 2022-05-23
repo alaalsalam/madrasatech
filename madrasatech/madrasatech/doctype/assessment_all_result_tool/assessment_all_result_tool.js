@@ -10,10 +10,8 @@ function get_total_scoer(student,course_name ,type_test){
 			'type_test':type_test,
 		},
 		callback: function(r) {
-			// console.log("result ->",r.message[0])
 			if (r.message) {
 				return r.message;
-				// frm.refresh_field('details');
 			}
 			else
 				return false;
@@ -69,30 +67,7 @@ frappe.ui.form.on('Assessment All Result Tool', {
 	},
 	
 
-	// course: function(frm) {
-	// 	frm.set_value("assessment_plan", "");
-	// },
-	// type_test: function(frm) {
-	// 	// frm.set_value("assessment_plan", "");
-	// },
-	
-	// stage: function(frm){
-	
-	// 	if(frm.doc.assessment_plan) {
-	// 		if (!frm.doc.student_group)
-	// 			return
-	// 		frappe.call({
-	// 			method: "madrasatech.madrasatech.api.get_result_program_all_coures",
-	// 			args: {
-	// 				"student_group":frm.doc.student_group,
-	// 				'type_test':frm.doc.type_test,
-	// 			},
-	// 			callback: function(r) {
-	// 				console.log(r.message);
-	// 								}
-	// 		});
-	// 	}
-	// },
+
 	assessment_plan: function(frm) {
 		
 		// console.log();
@@ -106,16 +81,9 @@ frappe.ui.form.on('Assessment All Result Tool', {
 					"assessment_plan": frm.doc.assessment_plan,
 					'type_test':frm.doc.type_test,
 					'student_group':frm.doc.student_group
-					// "assessment_plan_coures": frappe.db.get_value(),
-					// "assessment_plan_coures": frappe.db.get_value('Assessment Result', {
-					// 						'academic_year': frm.doc.academic_year,
-					// 						'academic_term':frm.doc.academic_term,
-					// 						'student_group':frm.doc.student_group
-					// 					},'assessment_plan'),
-
+				
 				},
 				callback: function(r) {
-					// console.log(r);
 					console.log(r.message);
 					if (r.message) {
 						frm.doc.students = r.message;
@@ -176,14 +144,14 @@ frappe.ui.form.on('Assessment All Result Tool', {
 			result_table.find(`input[data-student=${student}].student-result-data`)
 				.each(function(el, input) {
 					let $input = $(input);
-					let criteria = $input.data().criteria; // input
+					let criteria = $input.data().criteria; // input the score
 					let value = parseFloat($input.val());
 					if (!Number.isNaN(value)) {
 						student_scores["assessment_details"][criteria] = value;
 					} 
 					else {
 						pass;
-					}// else
+					}
 					total_score += value;
 			});
 			if(!Number.isNaN(total_score)) {
