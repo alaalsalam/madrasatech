@@ -24,7 +24,7 @@ class PassingTool(Document):
             condition = "and pe.student_batch_name=%(student_batch)s"
             condition2 = "and pe.student = arf.student"
             students = frappe.db.sql(
-                """select pe.student, pe.student_name, pe.student_batch_name, arf.grade as status from `tabProgram Enrollment` pe, `tabAssessment Result Final` arf
+                """select pe.student, pe.student_name, pe.student_batch_name, arf.grade_final as status from `tabProgram Enrollment` pe, `tabAssessment Result Final` arf
 					where pe.program=%(program)s and pe.academic_year=%(academic_year)s {0} {1} and pe.docstatus != 2""".format(
                     condition, condition2
                 ),
